@@ -1,0 +1,29 @@
+{
+  "LAHARL-BURN_POWER.description": "Burned creatures lose HP at the start of their turn. Weak creatures take double damage. Each turn, Burn is reduced by [blue]1[/blue].",
+  "LAHARL-BURN_POWER.smartDescription": "Burned creatures lose HP at the start of their turn. Weak creatures take double damage. Each turn, Burn is reduced by [blue]1[/blue].",
+  "LAHARL-BURN_POWER.title": "Burn",
+
+  "LAHARL-DARK_ASSEMBLY_POWER.description": "At the start of your turn, add [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold]. Dark Assembly does not stack.",
+  "LAHARL-DARK_ASSEMBLY_POWER.smartDescription": "At the start of your turn, add [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold]. Dark Assembly does not stack.",
+  "LAHARL-DARK_ASSEMBLY_POWER.title": "Dark Assembly",
+
+  "LAHARL-OVERLORDS_REPUTE_POWER.description": "Gain Strength each time you apply [gold]Ego[/gold]",
+  "LAHARL-OVERLORDS_REPUTE_POWER.smartDescription": "Gain Strength each time you apply [gold]Ego[/gold]",
+  "LAHARL-OVERLORDS_REPUTE_POWER.title": "Overlord's Repute",
+
+  "LAHARL-EGO_POWER.description": "When you take unblocked damage from an enemy Attack, take additional damage equal to Ego and lose 1 [gold]Ego[/gold].",
+  "LAHARL-EGO_POWER.smartDescription": "Take bonus damage from enemy Attacks. Decays when hit.",
+  "LAHARL-EGO_POWER.title": "Ego",
+
+  "LAHARL-MESSO_KOKEN_POWER.description": "Enemies with [gold]Burn[/gold] take more damage",
+  "LAHARL-MESSO_KOKEN_POWER.smartDescription": "Enemies with [gold]Burn[/gold] take more damage",
+  "LAHARL-MESSO_KOKEN_POWER.title": "Messo Koken",
+
+  "LAHARL-EGOMANIA_POWER.description": "At the start of your turn, draw cards if you have [gold]Ego[/gold].",
+  "LAHARL-EGOMANIA_POWER.smartDescription": "At the start of your turn, draw cards if you have [gold]Ego[/gold].",
+  "LAHARL-EGOMANIA_POWER.title": "Egomania",
+
+  "LAHARL-ENGULF_POWER.description": "At the start of your turn, apply [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-ENGULF_POWER.smartDescription": "At the start of your turn, apply [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-ENGULF_POWER.title": "Engulf"
+}

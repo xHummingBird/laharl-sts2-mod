@@ -1,0 +1,323 @@
+[gd_scene format=3 uid="uid://dmeyrepccob3x"]
+
+[ext_resource type="Texture2D" uid="uid://5yw5peft7x3d" path="res://Laharl/images/Laharl/idle/idle_01.png" id="1_kikiu"]
+[ext_resource type="Texture2D" uid="uid://cx5vdvm615eki" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_01.png" id="1_kk7ig"]
+[ext_resource type="Texture2D" uid="uid://dfjfg760ba00y" path="res://Laharl/images/Laharl/swing/swing_01.png" id="2_65baj"]
+[ext_resource type="Texture2D" uid="uid://wvpuyj221k4b" path="res://Laharl/images/Laharl/idle/idle_02.png" id="2_kpktk"]
+[ext_resource type="Texture2D" uid="uid://6k6siqgjjejd" path="res://Laharl/images/Laharl/idle/idle_03.png" id="3_7okby"]
+[ext_resource type="Texture2D" uid="uid://d3243bbm52m4w" path="res://Laharl/images/Laharl/dead/dead_01.png" id="3_eikin"]
+[ext_resource type="Texture2D" uid="uid://d38xpx5i7elxs" path="res://Laharl/images/Laharl/swing/swing_02.png" id="3_w8fvd"]
+[ext_resource type="Texture2D" uid="uid://bc5cp4v78rf8w" path="res://Laharl/images/Laharl/punch/punch_01.png" id="3_wubw5"]
+[ext_resource type="Texture2D" uid="uid://cge2qpbeuh0wx" path="res://Laharl/images/Laharl/idle/idle_04.png" id="4_pj2en"]
+[ext_resource type="Texture2D" uid="uid://bckw4yocjx584" path="res://Laharl/images/Laharl/swing/swing_03.png" id="4_w8fvd"]
+[ext_resource type="Texture2D" uid="uid://cmsrj855f2h60" path="res://Laharl/images/Laharl/idle/idle_05.png" id="5_nvff3"]
+[ext_resource type="Texture2D" uid="uid://bhqd768deine4" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_02.png" id="7_c3umv"]
+[ext_resource type="Texture2D" uid="uid://clp7rnurewdtu" path="res://Laharl/images/Laharl/dead/dead_02.png" id="7_e6rmx"]
+[ext_resource type="Texture2D" uid="uid://dbl55sacxnrak" path="res://Laharl/images/Laharl/dead/dead_03.png" id="8_6mw8e"]
+[ext_resource type="Texture2D" uid="uid://gxxunl1qukjj" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_03.png" id="8_65baj"]
+[ext_resource type="Texture2D" uid="uid://cver468rothuv" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_04.png" id="9_w8fvd"]
+[ext_resource type="Texture2D" uid="uid://b5omdmqavn61a" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_05.png" id="10_mlta5"]
+[ext_resource type="Texture2D" uid="uid://dq7u6o3rv0nru" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_06.png" id="11_e53fe"]
+[ext_resource type="Texture2D" uid="uid://d1axlb1jntfv5" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_07.png" id="12_wubw5"]
+[ext_resource type="Texture2D" uid="uid://crrfvwxvr43mo" path="res://Laharl/images/Laharl/yoshitsuna/yoshitsuna_08.png" id="13_8w61d"]
+[ext_resource type="Texture2D" uid="uid://cj12mx02e1mrn" path="res://Laharl/images/Laharl/punch/punch_02.png" id="18_8w61d"]
+[ext_resource type="Texture2D" uid="uid://bbrje286os6tw" path="res://Laharl/images/Laharl/punch/punch_03.png" id="19_u8r78"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_x3r01"]
+
+[sub_resource type="Animation" id="Animation_m5r6k"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlBody:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [SubResource("ImageTexture_x3r01")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Yoshitsuna:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_kk7ig")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("LaharlSwing:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_65baj")]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Yoshitsuna2:z_index")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Yoshitsuna2:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.59864795]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Yoshitsuna2:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(10.000002, 22.000002)]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("Yoshitsuna2:texture")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_kk7ig")]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("LaharlPunch:texture")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_wubw5")]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("LaharlDead:texture")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("3_eikin")]
+}
+
+[sub_resource type="Animation" id="Animation_mlta5"]
+resource_name = "attack_laharl"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlSwing:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.33333334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("2_65baj"), ExtResource("3_w8fvd"), ExtResource("4_w8fvd")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Yoshitsuna2:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.06666667, 0.13333334, 0.2, 0.26666668, 0.33333334, 0.4, 0.46666667, 0.53333336),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_kk7ig"), ExtResource("7_c3umv"), ExtResource("8_65baj"), ExtResource("9_w8fvd"), ExtResource("10_mlta5"), ExtResource("11_e53fe"), ExtResource("12_wubw5"), ExtResource("13_8w61d"), ExtResource("1_kk7ig")]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Yoshitsuna2:rotation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.33333334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [-0.59864795, -0.59864795, 4.009021291830976]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Yoshitsuna2:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.33333334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector2(10.000002, 22.000002), Vector2(0, 22), Vector2(4, 11)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Yoshitsuna2:rotation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [-0.59864795]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("Yoshitsuna2:z_index")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 0.33333334),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [-1, 1]
+}
+
+[sub_resource type="Animation" id="Animation_kicit"]
+resource_name = "die"
+length = 0.33333334
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlDead:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.33333334),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_eikin"), ExtResource("7_e6rmx"), ExtResource("8_6mw8e")]
+}
+
+[sub_resource type="Animation" id="Animation_063rt"]
+resource_name = "idle_loop"
+length = 2.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlBody:texture")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.0009999999, 0.2, 0.4, 0.6, 0.8, 1, 1.2, 1.4, 1.6, 1.8, 2, 2.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_kikiu"), ExtResource("2_kpktk"), ExtResource("3_7okby"), ExtResource("4_pj2en"), ExtResource("1_kikiu"), ExtResource("5_nvff3"), ExtResource("1_kikiu"), ExtResource("2_kpktk"), ExtResource("3_7okby"), ExtResource("4_pj2en"), ExtResource("1_kikiu"), ExtResource("5_nvff3")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Yoshitsuna:texture")
+tracks/1/interp = 0
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.16666667, 0.33333334, 0.5, 0.6666667, 0.8333333, 1, 1.1666666, 1.3333334, 1.4666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("1_kk7ig"), ExtResource("7_c3umv"), ExtResource("8_65baj"), ExtResource("9_w8fvd"), ExtResource("10_mlta5"), ExtResource("11_e53fe"), ExtResource("12_wubw5"), ExtResource("13_8w61d"), ExtResource("1_kk7ig"), ExtResource("1_kk7ig")]
+}
+
+[sub_resource type="Animation" id="Animation_eikin"]
+resource_name = "punch_laharl"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlPunch:texture")
+tracks/0/interp = 0
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("3_wubw5"), ExtResource("18_8w61d"), ExtResource("19_u8r78")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_kk7ig"]
+_data = {
+&"RESET": SubResource("Animation_m5r6k"),
+&"attack_laharl": SubResource("Animation_mlta5"),
+&"die": SubResource("Animation_kicit"),
+&"idle_loop": SubResource("Animation_063rt"),
+&"punch_laharl": SubResource("Animation_eikin")
+}
+
+[node name="Node2D" type="Node2D" unique_id=1901374581]
+
+[node name="LaharlBody" type="Sprite2D" parent="." unique_id=523457395]
+visible = false
+texture_filter = 1
+texture = SubResource("ImageTexture_x3r01")
+
+[node name="Yoshitsuna" type="Sprite2D" parent="." unique_id=2112937808]
+visible = false
+z_index = 1
+position = Vector2(223, 58.999996)
+rotation = 1.7627826
+texture = ExtResource("1_kk7ig")
+
+[node name="LaharlSwing" type="Sprite2D" parent="." unique_id=1121515352]
+texture = ExtResource("2_65baj")
+
+[node name="Yoshitsuna2" type="Sprite2D" parent="." unique_id=68486834]
+position = Vector2(10.000002, 22.000002)
+rotation = -0.59864795
+texture = ExtResource("1_kk7ig")
+offset = Vector2(0, -250)
+
+[node name="LaharlDead" type="Sprite2D" parent="." unique_id=1098999079]
+visible = false
+texture = ExtResource("3_eikin")
+
+[node name="LaharlRestSite" type="Sprite2D" parent="." unique_id=473213341]
+visible = false
+
+[node name="LaharlPunch" type="Sprite2D" parent="." unique_id=881160599]
+visible = false
+texture = ExtResource("3_wubw5")
+
+[node name="LaharlShop" type="Sprite2D" parent="." unique_id=1614179421]
+visible = false
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1206892081]
+libraries/ = SubResource("AnimationLibrary_kk7ig")

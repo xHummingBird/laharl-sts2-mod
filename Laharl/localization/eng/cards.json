@@ -1,0 +1,178 @@
+{
+  "LAHARL-DEFEND_LAHARL.title": "Defend",
+  "LAHARL-DEFEND_LAHARL.description": "Gain {Block:diff()} [gold]Block[/gold].",
+
+  "LAHARL-STRIKE_LAHARL.title": "Strike",
+  "LAHARL-STRIKE_LAHARL.description": "Deal {Damage:diff()} damage.",
+
+  "LAHARL-BLAZING_KNUCKLE.title": "Blazing Knuckle",
+  "LAHARL-BLAZING_KNUCKLE.description": "Deal {Damage:diff()} damage and apply {BurnPower:diff()} [gold]Burn[/gold] to ALL enemies.",
+
+  "LAHARL-OVERLORDS_DIGNITY.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold]. Gain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_DIGNITY.title": "Overlord's Dignity",
+
+  "LAHARL-BLADE_RUSH.description": "Deal {Damage:diff()} damage to ALL enemies.",
+  "LAHARL-BLADE_RUSH.title": "Blade Rush",
+
+  "LAHARL-YULETIDE_OVERLORD.description": "Deal {Damage:diff()} damage to ALL enemies. Heal {Heal:diff()} HP.",
+  "LAHARL-YULETIDE_OVERLORD.title": "Yuletide Overlord",
+
+  "LAHARL-CONTEMPT_GAZE.description": "Apply {WeakPower:diff()} [gold]Weak[/gold] and [gold]Burn[/gold].",
+  "LAHARL-CONTEMPT_GAZE.title": "Contempt Gaze",
+
+  "LAHARL-HURRICANE_SLASH.description": "Deal {CalculatedDamage:diff()} damage {Repeat:diff()} times. \nDeal additional {ExtraDamage:diff()} damage per hit to enemies with [gold]Burn[/gold].",
+  "LAHARL-HURRICANE_SLASH.title": "Hurricane Slash",
+
+  "LAHARL-OVERLORDS_TAUNT.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {VulnerablePower:diff()} [gold]Vulnerable[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold].",
+  "LAHARL-OVERLORDS_TAUNT.title": "HA HA HA HA!",
+
+  "LAHARL-WINGED_SLAYER.description": "Deal {Damage:diff()} damage and apply {VulnerablePower:diff()} [gold]Vulnerable[/gold] to ALL enemies.",
+  "LAHARL-WINGED_SLAYER.title": "Winged Slayer",
+
+  "LAHARL-HELLFIRE_KNUCKLE.description": "Deal {Damage:diff()} damage and apply {WeakPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies.",
+  "LAHARL-HELLFIRE_KNUCKLE.title": "Hellfire Knuckle",
+
+  "LAHARL-VACUUM_SLICE_X.description": "Deal {CalculatedDamage:diff()} damage {Repeat:diff()} times. Deal {ExtraDamage:diff()} additional damage per hit if you have [gold]Ego[/gold].",
+  "LAHARL-VACUUM_SLICE_X.title": "Vacuum Slice X",
+
+  "LAHARL-ARROGANCE.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold]. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-ARROGANCE.title": "Arrogance",
+
+  "LAHARL-DARK_ASSEMBLY.description": "At the start of your turn, add [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold]. Does not stack.",
+  "LAHARL-DARK_ASSEMBLY.title": "Dark Assembly",
+
+  "LAHARL-AYE.description": "Gain {Block:diff()} [gold]Block[/gold]. \nGain Additional {Block:diff()} [gold]Block[/gold] if you have [gold]Ego[/gold].",
+  "LAHARL-AYE.title": "AYE!",
+
+  "LAHARL-NAY.description": "Deal {Damage:diff()} damage. \nHits twice if you have [gold]Ego[/gold].",
+  "LAHARL-NAY.title": "NAY!",
+
+  "LAHARL-BRIBERY.description": "[blue]Exhaust[/blue] 1 Card. \nAdd 1 [gold]AYE![/gold] into your hand.",
+  "LAHARL-BRIBERY.title": "Bribery",
+  
+  "LAHARL-OVERLORDS_ARMOR.description": "Gain {PlatingPower:diff()} [gold]Plating[/gold]. Gain 2 more [gold]Plating[/gold] if you have [gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_ARMOR.title": "Overlord's Armor",
+
+  "LAHARL-PERSUADE_BY_FORCE.description": "Deal {Damage:diff()} damage. \nAdd 1 [gold]AYE![/gold] into your [gold]Hand[/gold].",
+  "LAHARL-PERSUADE_BY_FORCE.title": "Persuade By Force",
+
+  "LAHARL-SURROUNDED.description": "Gain {Block:diff()} [gold]Block[/gold]. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-SURROUNDED.title": "We're Surrounded, Dood",
+
+  "LAHARL-EXPLODING_PRESENTS.description": "Deal {Damage:diff()} damage to random enemies 5 times. \nGain {Energy:energyIcons()}.",
+  "LAHARL-EXPLODING_PRESENTS.title": "Exploding Presents",
+
+  "LAHARL-FIGHT_ME_DOOD.description": "Deal {Damage:diff()} damage. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-FIGHT_ME_DOOD.title": "Fight Me, Dood",
+
+  "LAHARL-METEOR_IMPACT.description": "Deal {Damage:diff()} damage to ALL enemies. \nApply {BurnPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies.",
+  "LAHARL-METEOR_IMPACT.title": "Meteor Impact",
+
+  "LAHARL-DENIED.description": "Apply {BurnPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies. \nAdd [blue]1[/blue] [gold]NAY![/gold] into your [gold]Hand[/gold].",
+  "LAHARL-DENIED.title": "Denied!",
+
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "Deal {Damage:diff()} damage {Repeat:diff()} times. \nAdd [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold].",
+  "LAHARL-DISCIPLINE_COMMITTEE.title": "Discipline Committee",
+
+  "LAHARL-NICK.description": "Deal {Damage:diff()} damage. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-NICK.title": "Nick!",
+
+  "LAHARL-BULLSEYE.description": "Deal {Damage:diff()} damage. Hits twice if enemy has [gold]Weak[/gold].",
+  "LAHARL-BULLSEYE.title": "Bullseye!",
+
+  "LAHARL-IGNITE.description": "Deal {CalculatedDamage:diff()} damage.\nDeals {ExtraDamage:diff()} additional damage for each [gold]Burn[/gold] on the enemy.",
+  "LAHARL-IGNITE.title": "Ignite",
+
+  "LAHARL-MOCKING_STRIKE.description": "Deal {Damage:diff()} damage and apply {WeakPower:diff()} [gold]Weak[/gold].",
+  "LAHARL-MOCKING_STRIKE.title": "Mocking Strike",
+
+  "LAHARL-SIPHON_WEAKNESS.description": "Gain {Block:diff()} [gold]Block[/gold]. \nDraw {Cards:diff()} {Cards:plural:card|cards} if there are any enemies with [gold]Weak[/gold].",
+  "LAHARL-SIPHON_WEAKNESS.title": "Siphon Weakness",
+
+  "LAHARL-OVERLORDS_REPUTE.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold] each time you apply [gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_REPUTE.title": "Overlord's Repute",
+
+  "LAHARL-DIMENSION_SLASH.description": "Deal {Damage:diff()} damage to ALL enemies. \nGain {VigorPower:diff()} [gold]Vigor[/gold].",
+  "LAHARL-DIMENSION_SLASH.title": "Dimension Slash",
+
+  "LAHARL-WEAKLING.description": "Apply {WeakPower:diff()} [gold]Weak[/gold].\nGain {StrengthPerWeak:diff()} [gold]Strength[/gold] for each [gold]Weak[/gold] on the enemy.",
+  "LAHARL-WEAKLING.title": "Weakling!",
+
+  "LAHARL-KNEEL_BEFORE_ME.description": "Draw {Cards:diff()} {Cards:plural:card|cards}. Gain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-KNEEL_BEFORE_ME.title": "Kneel Before Me!",
+
+  "LAHARL-TYRANT_SOUL.description": "Draw {Cards:diff()} {Cards:plural:card|cards}. \nGain {Energy:energyIcons()}. \nGain {StrengthPower:diff()} [gold]Strength[/gold]. \nGain {EgoPower:diff()} [gold]Ego[/gold]. ",
+  "LAHARL-TYRANT_SOUL.title": "Tyrant Soul",
+
+  "LAHARL-RECKLESS_ABANDON.description": "Gain {Energy:energyIcons()}. \nGain {EgoPower:diff()} [gold]Ego[/gold]." ,
+  "LAHARL-RECKLESS_ABANDON.title": "Reckless Abandon",
+
+  "LAHARL-MEDITATE.description": "Heal {Heal:diff()} HP. \nRemove [gold]Ego[/gold].",
+  "LAHARL-MEDITATE.title": "Meditate",
+
+  "LAHARL-MAGMA_GEYSER.description": "Deal {Damage:diff()} damage and apply {BurnPower:diff()} [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-MAGMA_GEYSER.title": "Magma Geyser",
+
+  "LAHARL-OVERLORDS_WRATH.description": "Deal {Damage:diff()} damage and apply {BurnPower:diff()} [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-OVERLORDS_WRATH.title": "Overlord's Wrath",
+  
+  "LAHARL-MESSO_KOKEN.description": "Enemies with [gold]Burn[/gold] take an additional {MessoKokenPower:diff()}% damage.",
+  "LAHARL-MESSO_KOKEN.title": "Messo Koken",
+
+  "LAHARL-SHUT_UP.description": "Gain {Block:diff()} [gold]Block[/gold]. \nApply {WeakPower:diff()} [gold]Weak[/gold].",
+  "LAHARL-SHUT_UP.title": "Shut Up!",
+
+  "LAHARL-OVERRUN.description": "Deal {Damage:diff()} damage. \nDraw {Cards:diff()} {Cards:plural:card|cards}.",
+  "LAHARL-OVERRUN.title": "Overrun",
+
+  "LAHARL-PETTY_SQUABBLE.description": "Deal {Damage:diff()} damage. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-PETTY_SQUABBLE.title": "Petty Squabble",
+
+  "LAHARL-STAND_TALL.description": "Gain {Block:diff()} [gold]Block[/gold]. \nDraw {Cards:diff()} {Cards:plural:card|cards}.",
+  "LAHARL-STAND_TALL.title": "Stand Tall",
+
+  "LAHARL-LAST_STAND.description": "Deal {Damage:diff()} damage. \nHits twice if you have less than [blue]20%[/blue] HP.",
+  "LAHARL-LAST_STAND.title": "Last Stand",
+
+  "LAHARL-RED_MOON.description": "Gain {Block:diff()} [gold]Block[/gold]. \nRemove [gold]Ego[/gold].",
+  "LAHARL-RED_MOON.title": "Red Moon",
+
+  "LAHARL-EGOMANIA.description": "At the start of your turn, Draw {EgomaniaPower:diff()} {Cards:plural:card|cards} if you have [gold]Ego[/gold].",
+  "LAHARL-EGOMANIA.title": "Egomania",
+
+  "LAHARL-ENGULF.description": "At the start of your turn, apply {BurnPerTurn:diff()} [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-ENGULF.title": "Engulf",
+
+  "LAHARL-PATHETIC.description": "Deal {CalculatedDamage:diff()} damage and {ExtraDamage:diff()} additional damage to [gold]Weak[/gold] enemies. \nGain {Block:diff()} [gold]Block[/gold].",
+  "LAHARL-PATHETIC.title": "Pathetic!",
+  
+  "LAHARL-NETHER_SLASH.description": "Deal {Damage:diff()} damage and apply {BurnPower:diff()} [gold]Burn[/gold].",
+  "LAHARL-NETHER_SLASH.title": "Nether Slash",
+
+  "LAHARL-OVERLORDS_DIMENSION.description": "Deal {Damage:diff()} damage and apply {WeakPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies.",
+  "LAHARL-OVERLORDS_DIMENSION.title": "Overlord's Dimension",
+
+  "LAHARL-UNDYING_WILL.description": "Gain {StrengthPower:diff()} [gold]Strength[/gold]. \nGain {EgoPower:diff()} [gold]Ego[/gold]. \nTriple strength gain if you have less than [blue]20%[/blue] HP.",
+  "LAHARL-UNDYING_WILL.title": "Undying Will",
+
+  "LAHARL-OVERLORD_SHOWDOWN.description": "Deal {Damage:diff()} damage.\nGain {StrengthPower:diff()} [gold]Strength[/gold].\nThe enemy gains {StrengthPower:diff()} [gold]Strength[/gold]. \nIf [gold]Fatal[/gold], gain {Energy:energyIcons()}.",
+  "LAHARL-OVERLORD_SHOWDOWN.title": "Overlord Showdown",
+
+  "LAHARL-PRINNY_EXPLOSION.description": "Deal {Damage:diff()} damage.\nDouble the enemy's [gold]Burn[/gold].",
+  "LAHARL-PRINNY_EXPLOSION.title": "Prinny Explosion",
+
+  "LAHARL-OVERWHELMING_ODDS.description": "Gain {Block:diff()} [gold]Block[/gold]. \nDouble block gained if you have less than [blue]50%[/blue] HP.",
+  "LAHARL-OVERWHELMING_ODDS.title": "Overwhelming Odds",
+
+  "LAHARL-PRINNY_WAVE.description": "Deal {Damage:diff()} damage and apply {WeakPower:diff()} [gold]Weak[/gold] to ALL enemies. \nApply an additional [gold]Weak[/gold] if you have [gold]Ego[/gold].",
+  "LAHARL-PRINNY_WAVE.title": "Prinny Wave",
+  
+  "LAHARL-FALSE_OVERLORD.description": "Gain {Block:diff()} [gold]Block[/gold]. Gain 1 [gold]Ego[/gold]. \nGain {VigorPower:diff()} [gold]Vigor[/gold]. \nNext turn, gain {Energy:energyIcons()}.",
+  "LAHARL-FALSE_OVERLORD.title": "False Overlord",
+
+  "LAHARL-LINGERING_HATRED.description": "If the enemy has [gold]Burn[/gold], apply {BurnPower:diff()} [gold]Burn[/gold].",
+  "LAHARL-LINGERING_HATRED.title": "Lingering Hatred",
+
+  "LAHARL-PANIC.description": "Draw {Cards:diff()} {Cards:plural:card|cards}. Gain 1 [gold]Ego[/gold]. If you draw a Skill, gain {Block:diff()} [gold]Block[/gold].",
+  "LAHARL-PANIC.title": "Panic, Dood!"
+}
