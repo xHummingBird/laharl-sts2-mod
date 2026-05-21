@@ -2,10 +2,11 @@
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models.Powers;
 
-namespace Laharl.LaharlCode.Cards.Uncommon;
+namespace Laharl.LaharlCode.Cards.Rare;
 
 public class TyrantSoul() : LaharlCard(0,
     CardType.Skill, CardRarity.Rare,
@@ -14,6 +15,11 @@ public class TyrantSoul() : LaharlCard(0,
     public override IEnumerable<CardKeyword> CanonicalKeywords =>
     [
         CardKeyword.Exhaust
+    ];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
+    [
+        HoverTipFactory.FromPower<EgoPower>(),
+        HoverTipFactory.FromPower<StrengthPower>()
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [

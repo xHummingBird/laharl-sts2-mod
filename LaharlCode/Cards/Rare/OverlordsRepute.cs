@@ -44,5 +44,6 @@ public class OverlordsRepute() : LaharlCard(2,
     protected override void OnUpgrade()
     {
         base.DynamicVars.Strength.UpgradeValueBy(1m);
+        base.DynamicVars["OverlordsReputePower"].UpgradeValueBy(1m);
     }
 }

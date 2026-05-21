@@ -30,22 +30,20 @@ public class HellfireKnuckleRelic() : LaharlRelic
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<BurnPower>(),
-        HoverTipFactory.FromCard<BlazingKnuckle>(),
-        HoverTipFactory.FromCard<HellfireKnuckle>()
     ];
     
     public override bool HasUponPickupEffect => true;
     
-    public override async Task AfterObtained()
-    {
-        CardModel? original = base.Owner.Deck.Cards
-            .FirstOrDefault(c => c is BlazingKnuckle);
-
-        CardModel card = base.Owner.RunState.CreateCard<HellfireKnuckle>(base.Owner);
-        if (original != null) await CardCmd.Transform(original, card);
-        if (original != null && original.IsUpgraded) CardCmd.Upgrade(card);
-        else CardCmd.PreviewCardPileAdd((await CardPileCmd.Add(card, PileType.Deck)), 2f);
-    }
+    // public override async Task AfterObtained()
+    // {
+    //     CardModel? original = base.Owner.Deck.Cards
+    //         .FirstOrDefault(c => c is BlazingKnuckle);
+    //
+    //     CardModel card = base.Owner.RunState.CreateCard<HellfireKnuckle>(base.Owner);
+    //     if (original != null) await CardCmd.Transform(original, card);
+    //     if (original != null && original.IsUpgraded) CardCmd.Upgrade(card);
+    //     else CardCmd.PreviewCardPileAdd((await CardPileCmd.Add(card, PileType.Deck)), 2f);
+    // }
 
     public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side,
         ICombatState combatState)
@@ -58,7 +56,7 @@ public class HellfireKnuckleRelic() : LaharlRelic
         Flash();
         foreach (Creature hittableEnemy in base.Owner.Creature.CombatState.HittableEnemies)
         {
-            NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(NGroundFireVfx.Create(hittableEnemy, VfxColor.Red));
+            NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(NGroundFireVfx.Create(hittableEnemy, VfxColor.Black));
         }
         await Cmd.CustomScaledWait(0.2f, 0.4f);
         foreach (Creature hittableEnemy2 in base.Owner.Creature.CombatState.HittableEnemies)

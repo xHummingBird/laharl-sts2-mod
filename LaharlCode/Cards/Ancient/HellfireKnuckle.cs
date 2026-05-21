@@ -22,6 +22,11 @@ namespace Laharl.LaharlCode.Cards.Ancient;
 [Pool(typeof(LaharlCardPool))]
 public class HellfireKnuckle() : LaharlCard(1, CardType.Attack, CardRarity.Ancient, TargetType.AllEnemies)
 {
+    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
+    [
+        HoverTipFactory.FromPower<BurnPower>(),
+        HoverTipFactory.FromPower<WeakPower>()
+    ];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(15, ValueProp.Move),
         new PowerVar<WeakPower>(3m),
@@ -32,19 +37,13 @@ public class HellfireKnuckle() : LaharlCard(1, CardType.Attack, CardRarity.Ancie
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
-        // ✅ Owner is on the card model, not on CardPlay
         var ownerCreature = Owner?.Creature;
 
         if (ownerCreature != null && Owner?.Character is Character.Laharl laharl)
         {
-            // Play your animation (hard-coded)
-            float duration = laharl.PlayAnimation(ownerCreature, "punch_laharl").total;
-
-            // Optional: delay to sync hit roughly mid animation
-            if (duration > 0f)
-                await Task.Delay((int)(duration * 0.5f * 1000f));
-        } 
-        
+            laharl.PlayAnimation(ownerCreature, "punch_laharl");
+            SfxCmd.Play("res://Laharl/sfx/blazing_knuckle.mp3");
+        }
         await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_heavy_blunt", null, "blunt_attack.mp3")
             .WithHitVfxSpawnedAtBase()
@@ -53,7 +52,7 @@ public class HellfireKnuckle() : LaharlCard(1, CardType.Attack, CardRarity.Ancie
                 var targets = base.CombatState.HittableEnemies;
                 foreach (var target in targets)
                 {
-                    var vfx = NGroundFireVfx.Create(target, VfxColor.Red);
+                    var vfx = NGroundFireVfx.Create(target, VfxColor.Blue);
                     if (vfx != null)
                     {
                         NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(vfx);

@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://bl4m677cq6lqh"]
+[gd_scene load_steps=3 format=3 uid="uid://bl4m677cq6lqh"]
 
+[ext_resource type="Script" uid="uid://byembed740uco" path="res://Laharl/scenes/LaharlNMerchantCharacter.cs" id="1_fe2x1"]
 [ext_resource type="Texture2D" uid="uid://didrjb0a2cvp3" path="res://Laharl/images/Laharl/laharl_shop.png" id="1_g4kr2"]
 
 [node name="LaharlMerchant" type="Node2D"]
+script = ExtResource("1_fe2x1")
 
 [node name="LaharlShop" type="Sprite2D" parent="."]
 position = Vector2(0, -133)

@@ -34,7 +34,6 @@
 
     <ItemGroup>
         <PackageReference Include="Alchyr.Sts2.BaseLib" Version="3.1.2" PrivateAssets="All" />
-        <PackageReference Include="Krafs.Publicizer" Version="2.3.0" PrivateAssets="All"/>
         <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.9" />
         <!-- Generates a .pck file when building if only using simple assets. May not work on all setups. Uncomment to test. -->
         <!-- <PackageReference Include="BSchneppe.StS2.PckPacker" Version="0.1.1" PrivateAssets="All" /> -->
@@ -46,6 +45,9 @@
         <Compile Remove="materials/**"/>
         <Compile Remove="shaders/**"/>
         <Compile Remove="images/**"/>
+        <Compile Include="Laharl\scenes\LaharlNMerchantCharacter.cs" />
+        <Compile Include="Laharl\scenes\LaharlNRestSiteCharacter.cs" />
+        <Compile Include="Laharl\scenes\LaharlNSelectionReticle.cs" />
         <EmbeddedResource Remove="Laharl/**"/>
         <EmbeddedResource Remove="materials/**"/>
         <EmbeddedResource Remove="shaders/**"/>

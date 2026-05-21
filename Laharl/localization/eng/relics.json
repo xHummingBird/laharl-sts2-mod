@@ -11,11 +11,11 @@
   "LAHARL-FLAME_ORB.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
   "LAHARL-FLAME_ORB.title": "Flame Orb",
 
-  "LAHARL-BAAL_SWORD.description": "Upgrades Yoshitsuna to Baal Sword. Obtain Overlord's Dimension. At the start of each combat, gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
+  "LAHARL-BAAL_SWORD.description": "Obtain [gold]Overlord's Dimension[/gold]. At the start of each combat, gain [blue]{VigorPower}[/blue] [gold]Vigor[/gold].",
   "LAHARL-BAAL_SWORD.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
   "LAHARL-BAAL_SWORD.title": "Baal Sword",
 
-  "LAHARL-HELLFIRE_KNUCKLE_RELIC.description": "Transforms Blazing Knuckle to Hellfire Knuckle. At the start of each combat, apply 5 [gold]Burn[/gold] to ALL enemies.",
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.description": "At the start of each combat, apply 5 [gold]Burn[/gold] to ALL enemies.",
   "LAHARL-HELLFIRE_KNUCKLE_RELIC.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
-  "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Hellfire Knuckle"
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Overlord's Knuckle"
 }

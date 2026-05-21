@@ -26,6 +26,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using MegaCrit.Sts2.Core.Helpers;
 using System;
+using System.Reflection;
 using BaseLib.Utils.NodeFactories;
 using Laharl.LaharlCode.Cards.Common;
 using Laharl.LaharlCode.Cards.Rare;
@@ -193,6 +194,30 @@ public class Laharl : PlaceholderCharacterModel
             }
         }
     }
+    
+    [HarmonyPatch(typeof(NFakeMerchant), "AfterRoomIsLoaded")]
+    public static class FakeMerchantLayeringPatch
+    {
+        [HarmonyPostfix]
+        public static void Postfix(NFakeMerchant __instance)
+        {
+            var container = AccessTools.Field(typeof(NFakeMerchant), "_characterContainer")
+                .GetValue(__instance) as Control;
+        
+            if (container != null)
+            {
+                container.ZIndex = -1; 
+            
+                var inventory = AccessTools.Field(typeof(NFakeMerchant), "_inventory")
+                    .GetValue(__instance) as Control;
+                if (inventory != null)
+                {
+                    inventory.ZIndex = 10;
+                }
+            }
+        }
+    }
+    
     [HarmonyPatch(typeof(Hook), nameof(Hook.AfterCombatVictory))]
     public static class LaharlVictoryAnimationPatch
     {

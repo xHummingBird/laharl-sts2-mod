@@ -21,7 +21,7 @@ namespace Laharl.LaharlCode.Relics;
 public class BaalSword() : LaharlRelic
 {
     public override RelicRarity Rarity =>
-        RelicRarity.Rare;
+        RelicRarity.Ancient;
 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
@@ -38,11 +38,6 @@ public class BaalSword() : LaharlRelic
     
     public override async Task AfterObtained()
     {
-        var relic = base.Owner.Relics.FirstOrDefault(r => r is Yoshitsuna);
-        if (relic != null)
-        {
-            await RelicCmd.Remove(relic);
-        }
         CardModel card = base.Owner.RunState.CreateCard<OverlordsDimension>(base.Owner);
         CardCmd.PreviewCardPileAdd((await CardPileCmd.Add(card, PileType.Deck)), 2f);
     }

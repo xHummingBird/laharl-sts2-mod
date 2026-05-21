@@ -24,7 +24,6 @@ public class LingeringHatred() : LaharlCard(1, CardType.Skill,
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        
         HoverTipFactory.FromPower<BurnPower>(),
     ];
 
