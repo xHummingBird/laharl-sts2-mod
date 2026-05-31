@@ -24,7 +24,7 @@ public class Panic() : LaharlCard (0, CardType.Skill, CardRarity.Uncommon, Targe
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
-    {
+    {   
         await PowerCmd.Apply<EgoPower>(choiceContext, base.Owner.Creature, base.DynamicVars["EgoPower"].BaseValue, base.Owner.Creature, this);
         CardModel cardModel = (await CardPileCmd.Draw(choiceContext, 1m, base.Owner)).FirstOrDefault();
         if (cardModel != null && cardModel.Type == CardType.Skill)

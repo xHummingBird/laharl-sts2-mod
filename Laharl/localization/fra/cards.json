@@ -1,0 +1,178 @@
+{
+  "LAHARL-DEFEND_LAHARL.title": "Défense",
+  "LAHARL-DEFEND_LAHARL.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold].",
+
+  "LAHARL-STRIKE_LAHARL.title": "Frappe",
+  "LAHARL-STRIKE_LAHARL.description": "Infligez {Damage:diff()} dégats.",
+
+  "LAHARL-BLAZING_KNUCKLE.title": "Poing Flamboyant",
+  "LAHARL-BLAZING_KNUCKLE.description": "Infligez {Damage:diff()} dégats et appliquez {BurnPower:diff()} [gold]Brûlure[/gold] à TOUS les ennemis.",
+
+  "LAHARL-OVERLORDS_DIGNITY.description": "Gagnez {StrengthPower:diff()} [gold]Force[/gold]. Gagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_DIGNITY.title": "Dignité d'Overlord",
+
+  "LAHARL-BLADE_RUSH.description": "Infligez {Damage:diff()} dégats à TOUS les ennemis.",
+  "LAHARL-BLADE_RUSH.title": "Blade Rush",
+
+  "LAHARL-YULETIDE_OVERLORD.description": "Infligez {Damage:diff()} dégats à TOUS les ennemis. Récupérez {Heal:diff()} PV.",
+  "LAHARL-YULETIDE_OVERLORD.title": "Overlord de Noël",
+
+  "LAHARL-CONTEMPT_GAZE.description": "Appliquez {WeakPower:diff()} [gold]Affaibli[/gold] et [gold]Brûlure[/gold].",
+  "LAHARL-CONTEMPT_GAZE.title": "Regard Méprisant",
+
+  "LAHARL-HURRICANE_SLASH.description": "Infligez {CalculatedDamage:diff()} dégats {Repeat:diff()} fois. \nInfligez {ExtraDamage:diff()} dégats de plus par coup aux ennemis avec [gold]Brûlure[/gold].",
+  "LAHARL-HURRICANE_SLASH.title": "Taillade Ouragan",
+
+  "LAHARL-OVERLORDS_TAUNT.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold].\nAppliquez {VulnerablePower:diff()} [gold]Vulnerable[/gold].\nAppliquez {WeakPower:diff()} [gold]Affaibli[/gold].",
+  "LAHARL-OVERLORDS_TAUNT.title": "HA HA HA HA!",
+
+  "LAHARL-WINGED_SLAYER.description": "Infligez {Damage:diff()} dégats et appliquez {VulnerablePower:diff()} [gold]Vulnerable[/gold] à TOUS les ennemis.",
+  "LAHARL-WINGED_SLAYER.title": "Tueur Ailé",
+
+  "LAHARL-HELLFIRE_KNUCKLE.description": "Infligez {Damage:diff()} dégats.\nAppliquez {WeakPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis.",
+  "LAHARL-HELLFIRE_KNUCKLE.title": "Poing Infernal",
+
+  "LAHARL-VACUUM_SLICE_X.description": "Infligez {CalculatedDamage:diff()} dégats {Repeat:diff()} fois. Infligez {ExtraDamage:diff()} dégats de plus par coup si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-VACUUM_SLICE_X.title": "Tranche Vide X",
+
+  "LAHARL-ARROGANCE.description": "Gagnez {VigorPower:diff()} [gold]Vigueur[/gold]. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-ARROGANCE.title": "Arrogance",
+
+  "LAHARL-DARK_ASSEMBLY.description": "Au début de votre tour, ajoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold]. \nNe s'accumule pas.",
+  "LAHARL-DARK_ASSEMBLY.title": "Assemblée Sombre",
+
+  "LAHARL-AYE.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nGagnez {Block:diff()} d'[gold]Armure[/gold] en plus si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-AYE.title": "AYE!",
+
+  "LAHARL-NAY.description": "Infligez {Damage:diff()} dégats. \nFrappe Double si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-NAY.title": "NAY!",
+
+  "LAHARL-BRIBERY.description": "[blue]Epuisez[/blue] 1 Carte. \nAjoutez 1 [gold]AYE![/gold] dans votre [gold]Main[/gold].",
+  "LAHARL-BRIBERY.title": "Corruption",
+  
+  "LAHARL-OVERLORDS_ARMOR.description": "Gagnez {PlatingPower:diff()} [gold]Blindage[/gold]. \nGagnez 2 [gold]Blindage[/gold] de plus si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_ARMOR.title": "Armure d'Overlord",
+
+  "LAHARL-PERSUADE_BY_FORCE.description": "Infligez {Damage:diff()} dégats. \nAjoutez 1 [gold]AYE![/gold] à votre [gold]Main[/gold].",
+  "LAHARL-PERSUADE_BY_FORCE.title": "Persuader de Force",
+
+  "LAHARL-SURROUNDED.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-SURROUNDED.title": "On est encerclés, Mec !",
+
+  "LAHARL-EXPLODING_PRESENTS.description": "Infligez {Damage:diff()} dégats à un ennemi aléatoire 5 fois. \nGagnez {Energy:energyIcons()}.",
+  "LAHARL-EXPLODING_PRESENTS.title": "Cadeaux Explosifs",
+
+  "LAHARL-FIGHT_ME_DOOD.description": "Infligez {Damage:diff()} dégats. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-FIGHT_ME_DOOD.title": "Affronte moi, Mec !",
+
+  "LAHARL-METEOR_IMPACT.description": "Infligez {Damage:diff()} dégats à TOUS les ennemis. \nAppliquez {BurnPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis.",
+  "LAHARL-METEOR_IMPACT.title": "Inpact de Météore",
+
+  "LAHARL-DENIED.description": "Appliquez {BurnPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis. \nAjoutez [blue]1[/blue] [gold]NAY![/gold] à votre [gold]Main[/gold].",
+  "LAHARL-DENIED.title": "Refusé !",
+
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "Infligez {Damage:diff()} dégats {Repeat:diff()} fois. \nAjoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold].",
+  "LAHARL-DISCIPLINE_COMMITTEE.title": "Commité de Discipline",
+
+  "LAHARL-NICK.description": "Infligez {Damage:diff()} dégats. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-NICK.title": "Entaille !",
+
+  "LAHARL-BULLSEYE.description": "Infligez {Damage:diff()} dégats. Frappe double si l'ennemi a [gold]Affaibli[/gold].",
+  "LAHARL-BULLSEYE.title": "Cible !",
+
+  "LAHARL-IGNITE.description": "Infligez {CalculatedDamage:diff()} dégats.\nInfligez {ExtraDamage:diff()} en plus pour chaque [gold]Brûlure[/gold] sur l'ennemi.",
+  "LAHARL-IGNITE.title": "Enflammer",
+
+  "LAHARL-MOCKING_STRIKE.description": "Infligez {Damage:diff()} dégats et appliquez {WeakPower:diff()} [gold]Affaibli[/gold].",
+  "LAHARL-MOCKING_STRIKE.title": "Frappe Narquoise",
+
+  "LAHARL-SIPHON_WEAKNESS.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nPiochez {Cards:diff()} {Cards:plural:carte|cartes} if there are any enemies with [gold]Affaibli[/gold].",
+  "LAHARL-SIPHON_WEAKNESS.title": "Siphonner la Faiblesse",
+
+  "LAHARL-OVERLORDS_REPUTE.description": "Gagnez {StrengthPower:diff()} [gold]Force[/gold] chaque fois que vous gagnez de l'[gold]Ego[/gold].",
+  "LAHARL-OVERLORDS_REPUTE.title": "Réputation de l'Overlord",
+
+  "LAHARL-DIMENSION_SLASH.description": "Infligez {Damage:diff()} dégats à TOUS les ennemis. \nGagnez {VigorPower:diff()} [gold]Vigueur[/gold].",
+  "LAHARL-DIMENSION_SLASH.title": "Coupe Dimension",
+
+  "LAHARL-WEAKLING.description": "Appliquez {WeakPower:diff()} [gold]Affaibli[/gold].\nGagnez {StrengthPerWeak:diff()} [gold]Force[/gold] pour chaque [gold]Affaibli[/gold] sur l'ennemi.",
+  "LAHARL-WEAKLING.title": "Faiblard !",
+
+  "LAHARL-KNEEL_BEFORE_ME.description": "Piochez {Cards:diff()} {Cards:plural:carte|cartes}. Gagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-KNEEL_BEFORE_ME.title": "A genoux devant moi!",
+
+  "LAHARL-TYRANT_SOUL.description": "Piochez {Cards:diff()} {Cards:plural:carte|cartes}. \nGagnez {Energy:energyIcons()}. \nGagnez {StrengthPower:diff()} [gold]Force[/gold]. \nGagnez {EgoPower:diff()} [gold]Ego[/gold]. ",
+  "LAHARL-TYRANT_SOUL.title": "Ame de Tyran",
+
+  "LAHARL-RECKLESS_ABANDON.description": "Gagnez {Energy:energyIcons()}. \nGagnez {EgoPower:diff()} [gold]Ego[/gold]." ,
+  "LAHARL-RECKLESS_ABANDON.title": "Abandon Téméraire",
+
+  "LAHARL-MEDITATE.description": "Récupérez {Heal:diff()} PV. \nRetirez votre [gold]Ego[/gold].",
+  "LAHARL-MEDITATE.title": "Méditer",
+
+  "LAHARL-MAGMA_GEYSER.description": "Infligez {Damage:diff()} dégats et appliquez {BurnPower:diff()} [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-MAGMA_GEYSER.title": "Geyser de Magma",
+
+  "LAHARL-OVERLORDS_WRATH.description": "Infligez {Damage:diff()} dégats et appliquez {BurnPower:diff()} [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-OVERLORDS_WRATH.title": "Colère de l'Overlord",
+  
+  "LAHARL-MESSO_KOKEN.description": "Les ennemis avec [gold]Brûlure[/gold] prennent {MessoKokenPower:diff()}% de dégats supplémentaires.",
+  "LAHARL-MESSO_KOKEN.title": "Messo Koken",
+
+  "LAHARL-SHUT_UP.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nAppliquez {WeakPower:diff()} [gold]Affaibli[/gold].",
+  "LAHARL-SHUT_UP.title": "Fermez-la !",
+
+  "LAHARL-OVERRUN.description": "Infligez {Damage:diff()} dégats. \nPiochez {Cards:diff()} {Cards:plural:carte|cartes}.",
+  "LAHARL-OVERRUN.title": "Envahir",
+
+  "LAHARL-PETTY_SQUABBLE.description": "Infligez {Damage:diff()} dégats. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
+  "LAHARL-PETTY_SQUABBLE.title": "Querelle Mesquine",
+
+  "LAHARL-STAND_TALL.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nPiochez {Cards:diff()} {Cards:plural:carte|cartes}.",
+  "LAHARL-STAND_TALL.title": "Regarder de Haut",
+
+  "LAHARL-LAST_STAND.description": "Infligez {Damage:diff()} dégats. \nAttaque 2 fois si vous avez moins de [blue]20%[/blue] de vie.",
+  "LAHARL-LAST_STAND.title": "Dernier combat",
+
+  "LAHARL-RED_MOON.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nRetirez votre [gold]Ego[/gold].",
+  "LAHARL-RED_MOON.title": "Lune Rouge",
+
+  "LAHARL-EGOMANIA.description": "Au début de votre tour, Piochez {EgomaniaPower:diff()} {Cards:plural:carte|cartes} si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-EGOMANIA.title": "Egomania",
+
+  "LAHARL-ENGULF.description": "Au début de votre tour, appliquez {BurnPerTurn:diff()} [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-ENGULF.title": "Engloutir",
+
+  "LAHARL-PATHETIC.description": "Infligez {CalculatedDamage:diff()} dégats et {ExtraDamage:diff()} dégats de plus aux ennemis ayant [gold]Affaibli[/gold]. \nGagnez {Block:diff()} d'[gold]Armure[/gold].",
+  "LAHARL-PATHETIC.title": "Pathétique !",
+  
+  "LAHARL-NETHER_SLASH.description": "Infligez {Damage:diff()} dégats et appliquez {BurnPower:diff()} [gold]Brûlure[/gold].",
+  "LAHARL-NETHER_SLASH.title": "Taillade du Nether",
+
+  "LAHARL-OVERLORDS_DIMENSION.description": "Infligez {Damage:diff()} dégats. \nAppliquez {WeakPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis.",
+  "LAHARL-OVERLORDS_DIMENSION.title": "Dimension de l'Overlord",
+
+  "LAHARL-UNDYING_WILL.description": "Gagnez {StrengthPower:diff()} [gold]Force[/gold]. \nGagnez {EgoPower:diff()} [gold]Ego[/gold]. \nTriple gain de force si vous avez moins de [blue]20%[/blue] de vie.",
+  "LAHARL-UNDYING_WILL.title": "Volonté Immortelle",
+
+  "LAHARL-OVERLORD_SHOWDOWN.description": "Infligez {Damage:diff()} dégats.\nGagnez {StrengthPower:diff()} de [gold]Force[/gold].\nL'ennemi gagne {StrengthPower:diff()} de [gold]Force[/gold]. \nSi [gold]Fatal[/gold], Gagnez {Energy:energyIcons()}.",
+  "LAHARL-OVERLORD_SHOWDOWN.title": "Confrontation d'Overlord",
+
+  "LAHARL-PRINNY_EXPLOSION.description": "Infligez {Damage:diff()} dégats.\nDouble la [gold]Brûlure[/gold] de l'ennemi.",
+  "LAHARL-PRINNY_EXPLOSION.title": "Explosion de Prinny",
+
+  "LAHARL-OVERWHELMING_ODDS.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. \nDoublez l'Armure gagnés si vous ave moins de [blue]50%[/blue] de vie.",
+  "LAHARL-OVERWHELMING_ODDS.title": "Chances écrasantes",
+
+  "LAHARL-PRINNY_WAVE.description": "Infligez {Damage:diff()} dégats et appliquez {WeakPower:diff()} [gold]Affaibli[/gold] à TOUS les ennemis. \nAppliquez un [gold]Affaibli[/gold] en plus si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-PRINNY_WAVE.title": "Vague de Prinny",
+  
+  "LAHARL-FALSE_OVERLORD.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold]. Gagnez 1 [gold]Ego[/gold]. \nGagnez {VigorPower:diff()} [gold]Vigueur[/gold]. \nAu prochain tour, Gagnez {Energy:energyIcons()}.",
+  "LAHARL-FALSE_OVERLORD.title": "Faux Overlord",
+
+  "LAHARL-LINGERING_HATRED.description": "Si l'ennemi a [gold]Brûlure[/gold], appliquez {BurnPower:diff()} [gold]Brûlure[/gold].",
+  "LAHARL-LINGERING_HATRED.title": "Haine Persistante",
+
+  "LAHARL-PANIC.description": "Piochez {Cards:diff()} {Cards:plural:carte|cartes}. Gagnez 1 [gold]Ego[/gold]. Si vous piochez une Compétence, Gagnez {Block:diff()} d'[gold]Armure[/gold].",
+  "LAHARL-PANIC.title": "Panique, Mec !"
+}

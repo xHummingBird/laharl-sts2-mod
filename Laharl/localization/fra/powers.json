@@ -1,0 +1,29 @@
+{
+  "LAHARL-BURN_POWER.description": "Les créatures Brûlées perdent des PV au début de leur tour. Les créatures Affaiblies prennent le double de dégats. Chaque tour, Brûlure est réduit de [blue]1[/blue].",
+  "LAHARL-BURN_POWER.smartDescription": "Les créatures Brûlées perdent des PV au début de leur tour. Les créatures Affaiblies prennent le double de dégats. Chaque tour, Brûlure est réduit de [blue]1[/blue].",
+  "LAHARL-BURN_POWER.title": "Brûlure",
+
+  "LAHARL-DARK_ASSEMBLY_POWER.description": "Au début de votre tour, ajoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold]. L'Assemblée Sombre ne s'accumule pas.",
+  "LAHARL-DARK_ASSEMBLY_POWER.smartDescription": "Au début de votre tour, ajoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold]. L'Assemblée Sombre ne s'accumule pas.",
+  "LAHARL-DARK_ASSEMBLY_POWER.title": "Assemblée Sombre",
+
+  "LAHARL-OVERLORDS_REPUTE_POWER.description": "Gagnez de la force chaque fois que vous gagnez de l'[gold]Ego[/gold]",
+  "LAHARL-OVERLORDS_REPUTE_POWER.smartDescription": "Gagnez de la force chaque fois que vous gagnez de l'[gold]Ego[/gold]",
+  "LAHARL-OVERLORDS_REPUTE_POWER.title": "Réputation de L'Overlord",
+
+  "LAHARL-EGO_POWER.description": "Quand vous prennez des dégats non bloqués d'une attaque énnemie, Prenez des dégats supplémentaires égaux à votre Ego et perdez 1 d'[gold]Ego[/gold].",
+  "LAHARL-EGO_POWER.smartDescription": "Prenez des dégats bonus des attaques enemies. Baisse lorsqu'on se fait toucher.",
+  "LAHARL-EGO_POWER.title": "Ego",
+
+  "LAHARL-MESSO_KOKEN_POWER.description": "Les ennemis avec [gold]Brûlure[/gold] prennent plus de dégats",
+  "LAHARL-MESSO_KOKEN_POWER.smartDescription": "Les ennemis avec [gold]Brûlure[/gold] prennent plus de dégats",
+  "LAHARL-MESSO_KOKEN_POWER.title": "Messo Koken",
+
+  "LAHARL-EGOMANIA_POWER.description": "Au début de votre tour, piochez des cartes si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-EGOMANIA_POWER.smartDescription": "Au début de votre tour, piochez des cartes si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-EGOMANIA_POWER.title": "Egomania",
+
+  "LAHARL-ENGULF_POWER.description": "Au début de votre tour, appliquez [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-ENGULF_POWER.smartDescription": "Au début de votre tour, appliquez [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-ENGULF_POWER.title": "Engloutir"
+}

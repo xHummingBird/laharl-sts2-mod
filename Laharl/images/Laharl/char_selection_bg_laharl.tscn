@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://byrjk4322o5wy" path="res://Laharl/images/Laharl/char_select_bg_background.png" id="1_dkvx3"]
 [ext_resource type="Texture2D" uid="uid://cninao76bqylf" path="res://Laharl/images/Laharl/char_select_bg_body.png" id="2_cwc1b"]
-[ext_resource type="AudioStream" uid="uid://cjfj20bkx4lpk" path="res://Laharl/sfx/saikyou_maou.mp3" id="3_cwc1b"]
+[ext_resource type="AudioStream" uid="uid://d3voyftbf2jap" path="res://Laharl/sfx/laughter.mp3" id="3_cwc1b"]
 
 [sub_resource type="Animation" id="Animation_wejj4"]
 length = 0.001
@@ -33,7 +33,7 @@ tracks/1/keys = {
 
 [sub_resource type="Animation" id="Animation_lysqo"]
 resource_name = "char_background_bg"
-length = 2.1
+length = 2.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true

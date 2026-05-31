@@ -46,7 +46,7 @@ public class HellfireKnuckleRelic() : LaharlRelic
     // }
 
     public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side,
-        ICombatState combatState)
+        IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         if (side != base.Owner.Creature.Side || combatState.RoundNumber > 1)
         {

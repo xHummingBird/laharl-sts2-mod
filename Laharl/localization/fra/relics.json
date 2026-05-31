@@ -1,0 +1,21 @@
+{
+  "LAHARL-YOSHITSUNA.description": "Au début de chaque combat, gagnez [blue]{VigorPower}[/blue] [gold]Vigueur[/gold].",
+  "LAHARL-YOSHITSUNA.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
+  "LAHARL-YOSHITSUNA.title": "Yoshitsuna",
+
+  "LAHARL-INFERNAL_SWORD.description": "Les ennemis avec [gold]Brûlure[/gold] prennent [blue]25%[/blue] de dégats en plus.",
+  "LAHARL-INFERNAL_SWORD.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
+  "LAHARL-INFERNAL_SWORD.title": "Epée Infernale",
+
+  "LAHARL-FLAME_ORB.description": "Quand vous appliquez [gold]Brûlure[/gold], appliquez une [gold]Brûlure[/gold] en plus.",
+  "LAHARL-FLAME_ORB.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
+  "LAHARL-FLAME_ORB.title": "Orbe de Flammes",
+
+  "LAHARL-BAAL_SWORD.description": "Obtenez [gold]Dimension de l'Overlord[/gold]. Au début de chaque combat, gagnez [blue]{VigorPower}[/blue] [gold]Vigueur[/gold].",
+  "LAHARL-BAAL_SWORD.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
+  "LAHARL-BAAL_SWORD.title": "Epée de Baal",
+
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.description": "Au début de chaque combat, appliquez 5 [gold]Brûlure[/gold] à TOUS les ennemis.",
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Poing d'Overlord"
+}

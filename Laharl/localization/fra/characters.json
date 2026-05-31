@@ -1,0 +1,16 @@
+{
+  "LAHARL-LAHARL.title": "Overlord Laharl",
+  "LAHARL-LAHARL.titleObject": "L'Overlord",
+  "LAHARL-LAHARL.description": "L'Arrogant Overlord du Netherworld à la puissance absurde.",
+  "LAHARL-LAHARL.pronounObject": "lui",
+  "LAHARL-LAHARL.possessiveAdjective": "son",
+  "LAHARL-LAHARL.pronounPossessive": "son",
+  "LAHARL-LAHARL.pronounSubject": "il",
+  "LAHARL-LAHARL.cardsModifierTitle": "Cartes de Laharl",
+  "LAHARL-LAHARL.cardsModifierDescription": "Les cartes de Larahr Apparaîtront maintenant dans les récompenses et le magasin.",
+  "LAHARL-LAHARL.eventDeathPrevention": "Hmph. C'est donc ça la défaite…? Ridicule.",
+  "LAHARL-LAHARL.goldMonologue": "Bien sûr que je le mérite ! Je suis l'Overlord après tout.",
+  "LAHARL-LAHARL.aromaPrinciple": "Lore",
+  "LAHARL-LAHARL.banter.dead.endTurnPing": "Tch… ne te méprends pas. Ce n'es pas fini.",
+  "LAHARL-LAHARL.banter.alive.endTurnPing": "Bouge-toi. Un Overlord n'attends pas."
+}
