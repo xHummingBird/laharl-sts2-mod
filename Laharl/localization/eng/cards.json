@@ -174,5 +174,14 @@
   "LAHARL-LINGERING_HATRED.title": "Lingering Hatred",
 
   "LAHARL-PANIC.description": "Draw {Cards:diff()} {Cards:plural:card|cards}. Gain 1 [gold]Ego[/gold]. If you draw a Skill, gain {Block:diff()} [gold]Block[/gold].",
-  "LAHARL-PANIC.title": "Panic, Dood!"
+  "LAHARL-PANIC.title": "Panic, Dood!",
+
+  "LAHARL-ROYAL_BULLY.description": "Deal {CalculatedDamage:diff()} damage.\nDeals {ExtraDamage:diff()} additional damage for each [gold]Weak[/gold] on the enemy.",
+  "LAHARL-ROYAL_BULLY.title": "Royal Bully",
+
+  "LAHARL-GET_THEM_IDIOTS.description": "Deal {Damage:diff()} damage to random enemies 3 times. \nHit 2 additional times if you have [gold]Ego[/gold].",
+  "LAHARL-GET_THEM_IDIOTS.title": "Get Them, Idiots!",
+
+  "LAHARL-SIS_LORD_SKY_FIST.description": "Deal {Damage:diff()} damage. \nIf enemy has [gold]Burn[/gold], apply {VulnerablePower:diff()} [gold]Vulnerable[/gold] and [gold]Weak[/gold].",
+  "LAHARL-SIS_LORD_SKY_FIST.title": "Sis-Lord Sky Fist"
 }

@@ -26,7 +26,7 @@ public class Bullseye() : LaharlCard(2,
         HoverTipFactory.FromPower<WeakPower>(),
     ];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(25m, ValueProp.Move),
+        new DamageVar(22m, ValueProp.Move),
     ];
 
     protected override async Task OnPlay(
@@ -56,6 +56,6 @@ public class Bullseye() : LaharlCard(2,
 
     protected override void OnUpgrade()
     {
-        base.DynamicVars.Damage.UpgradeValueBy(3);
+        base.DynamicVars.Damage.UpgradeValueBy(8);
     }
 }

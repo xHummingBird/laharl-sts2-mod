@@ -40,7 +40,7 @@ public class EgoPower : LaharlPower
         Flash();
 
         // Deal Ego backlash damage to the player
-        await CreatureCmd.Damage(
+        CreatureCmd.Damage(
             new ThrowingPlayerChoiceContext(),
             base.Owner,
             base.Amount,
@@ -48,7 +48,7 @@ public class EgoPower : LaharlPower
             null,
             null);
 
-        await PowerCmd.Decrement(this);
+        PowerCmd.Decrement(this);
     }
 
 

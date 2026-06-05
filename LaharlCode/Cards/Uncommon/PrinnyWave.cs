@@ -10,9 +10,9 @@ using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Nodes.Vfx;
 using MegaCrit.Sts2.Core.ValueProps;
 
-namespace Laharl.LaharlCode.Cards.Common;
+namespace Laharl.LaharlCode.Cards.Uncommon;
 
-public class PrinnyWave() : LaharlCard(1, CardType.Attack, CardRarity.Common, TargetType.AllEnemies)
+public class PrinnyWave() : LaharlCard(1, CardType.Attack, CardRarity.Uncommon, TargetType.AllEnemies)
 {
     protected override bool ShouldGlowGoldInternal => base.Owner.HasPower<EgoPower>();
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
@@ -21,7 +21,7 @@ public class PrinnyWave() : LaharlCard(1, CardType.Attack, CardRarity.Common, Ta
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(7, ValueProp.Move),
+        new DamageVar(8, ValueProp.Move),
         new PowerVar<WeakPower>(1)
     ];
     

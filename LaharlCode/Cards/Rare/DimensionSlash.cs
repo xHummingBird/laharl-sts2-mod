@@ -29,7 +29,7 @@ public class DimensionSlash() : LaharlCard(2, CardType.Attack, CardRarity.Rare, 
     ];
     
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(18m, ValueProp.Move),
+        new DamageVar(15m, ValueProp.Move),
         new PowerVar<VigorPower>(5m)
     ];
     

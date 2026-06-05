@@ -17,5 +17,9 @@
 
   "LAHARL-HELLFIRE_KNUCKLE_RELIC.description": "Au début de chaque combat, appliquez 5 [gold]Brûlure[/gold] à TOUS les ennemis.",
   "LAHARL-HELLFIRE_KNUCKLE_RELIC.flavor": "[red]Les détails de cette relique seront révélés prochainement...[/red]",
-  "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Poing d'Overlord"
+  "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Poing d'Overlord",
+
+  "LAHARL-SUPER_ROBO_SUIT.description": "",
+  "LAHARL-SUPER_ROBO_SUIT.flavor": "",
+  "LAHARL-SUPER_ROBO_SUIT.title": "SuperRoboSuit"
 }
