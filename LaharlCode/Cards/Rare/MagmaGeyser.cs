@@ -73,7 +73,7 @@ public class MagmaGeyser() : LaharlCard(2,
             NCombatRoom.Instance.CombatVfxContainer.AddChildSafely(vfx);
             await Cmd.Wait(vfx.WaitTime);
         }
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_starry_impact", "blunt_attack.mp3")
             .WithHitVfxSpawnedAtBase()
             .BeforeDamage(async delegate

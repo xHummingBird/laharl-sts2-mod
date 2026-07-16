@@ -1,0 +1,178 @@
+{
+  "LAHARL-DEFEND_LAHARL.title": "防御",
+  "LAHARL-DEFEND_LAHARL.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。",
+
+  "LAHARL-STRIKE_LAHARL.title": "打击",
+  "LAHARL-STRIKE_LAHARL.description": "造成 {Damage:diff()} 点伤害。",
+
+  "LAHARL-BLAZING_KNUCKLE.title": "火焰拳",
+  "LAHARL-BLAZING_KNUCKLE.description": "对所有敌人造成造成 {Damage:diff()} 点伤害，给予 {BurnPower:diff()} 层 [gold]燃烧[/gold]。",
+
+  "LAHARL-OVERLORDS_DIGNITY.description": "获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-OVERLORDS_DIGNITY.title": "魔王的威严",
+
+  "LAHARL-BLADE_RUSH.description": "对所有敌人造成 {Damage:diff()} 点伤害。",
+  "LAHARL-BLADE_RUSH.title": "一文字",
+
+  "LAHARL-YULETIDE_OVERLORD.description": "对所有敌人造成 {Damage:diff()} 点伤害。回复 {Heal:diff()} 点生命值。",
+  "LAHARL-YULETIDE_OVERLORD.title": "圣诞魔王",
+
+  "LAHARL-CONTEMPT_GAZE.description": "给予 {WeakPower:diff()} 层 [gold]虚弱[/gold] 和 [gold]燃烧[/gold]。",
+  "LAHARL-CONTEMPT_GAZE.title": "蔑视",
+
+  "LAHARL-HURRICANE_SLASH.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {Repeat:diff()} 次。\n对 [gold]燃烧[/gold] 状态的敌人每次额外造成 {ExtraDamage:diff()} 点伤害。",
+  "LAHARL-HURRICANE_SLASH.title": "飓风斩",
+
+  "LAHARL-OVERLORDS_TAUNT.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n给予 {VulnerablePower:diff()} 层 [gold]易伤[/gold]。\n给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。",
+  "LAHARL-OVERLORDS_TAUNT.title": "哈哈哈！",
+
+  "LAHARL-WINGED_SLAYER.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {VulnerablePower:diff()} 层 [gold]易伤[/gold]。",
+  "LAHARL-WINGED_SLAYER.title": "斩翼",
+
+  "LAHARL-HELLFIRE_KNUCKLE.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {WeakPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。",
+  "LAHARL-HELLFIRE_KNUCKLE.title": "炼狱炎拳",
+
+  "LAHARL-VACUUM_SLICE_X.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {Repeat:diff()} 次。如果你拥有 [gold]自我[/gold]，每次命中额外造成 {ExtraDamage:diff()} 点伤害。",
+  "LAHARL-VACUUM_SLICE_X.title": "真空斩 X",
+
+  "LAHARL-ARROGANCE.description": "获得 {VigorPower:diff()} 层 [gold]活力[/gold]。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-ARROGANCE.title": "傲慢",
+
+  "LAHARL-DARK_ASSEMBLY.description": "在你的回合开始时，将 [blue]1[/blue] 张 [gold]赞成！[/gold] 或 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。效果不叠加。",
+  "LAHARL-DARK_ASSEMBLY.title": "黑暗议会",
+
+  "LAHARL-AYE.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n如果你拥有 [gold]自我[/gold]，则额外获得 {Block:diff()} 点 [gold]格挡[/gold]。",
+  "LAHARL-AYE.title": "赞成",
+
+  "LAHARL-NAY.description": "造成 {Damage:diff()} 点伤害。\n如果你拥有 [gold]自我[/gold]，则攻击两次。",
+  "LAHARL-NAY.title": "反对",
+
+  "LAHARL-BRIBERY.description": "[blue]消耗[/blue] 1 张牌。\n将 1 张 [gold]赞成！[/gold] 加入手牌。",
+  "LAHARL-BRIBERY.title": "贿赂",
+  
+  "LAHARL-OVERLORDS_ARMOR.description": "获得 {PlatingPower:diff()} 层 [gold]覆甲[/gold]。如果你拥有 [gold]自我[/gold]，则额外获得 2 层 [gold]覆甲[/gold]。",
+  "LAHARL-OVERLORDS_ARMOR.title": "魔王铠甲",
+
+  "LAHARL-PERSUADE_BY_FORCE.description": "造成 {Damage:diff()} 点伤害。\n将 1 张 [gold]赞成！[/gold] 加入你的 [gold]手牌[/gold]。",
+  "LAHARL-PERSUADE_BY_FORCE.title": "胁迫",
+
+  "LAHARL-SURROUNDED.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-SURROUNDED.title": "包围",
+
+  "LAHARL-EXPLODING_PRESENTS.description": "对随机敌人造成 {Damage:diff()} 点伤害，命中 5 次。\n获得 {Energy:energyIcons()}。",
+  "LAHARL-EXPLODING_PRESENTS.title": "爆炸礼物",
+
+  "LAHARL-FIGHT_ME_DOOD.description": "造成 {Damage:diff()} 点伤害。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-FIGHT_ME_DOOD.title": "决斗",
+
+  "LAHARL-METEOR_IMPACT.description": "对所有敌人造成 {Damage:diff()} 点伤害。\n所有敌人给予所有敌人 {BurnPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。",
+  "LAHARL-METEOR_IMPACT.title": "流星冲撞",
+
+  "LAHARL-DENIED.description": "给予所有敌人 {BurnPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。\n将 [blue]1[/blue] 张 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。",
+  "LAHARL-DENIED.title": "驳回",
+
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "造成 {Damage:diff()} 点伤害，重复 {Repeat:diff()} 次。\n将 [blue]1[/blue] 张 [gold]赞成！[/gold] 或 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。",
+  "LAHARL-DISCIPLINE_COMMITTEE.title": "风纪委员会",
+
+  "LAHARL-NICK.description": "造成 {Damage:diff()} 点伤害。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-NICK.title": "Miss",
+
+  "LAHARL-BULLSEYE.description": "造成 {Damage:diff()} 点伤害。如果该敌人有 [gold]虚弱[/gold]状态，则攻击两次。",
+  "LAHARL-BULLSEYE.title": "正中目标",
+
+  "LAHARL-IGNITE.description": "造成 {CalculatedDamage:diff()} 点伤害。\n敌人每有一层 [gold]燃烧[/gold]，额外造成 {ExtraDamage:diff()} 点伤害。",
+  "LAHARL-IGNITE.title": "点燃",
+
+  "LAHARL-MOCKING_STRIKE.description": "造成 {Damage:diff()} 点伤害并给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。",
+  "LAHARL-MOCKING_STRIKE.title": "嘲讽",
+
+  "LAHARL-SIPHON_WEAKNESS.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n如果存在带有 [gold]虚弱[/gold] 的敌人，则抽 {Cards:diff} 张牌。",
+  "LAHARL-SIPHON_WEAKNESS.title": "凌弱",
+
+  "LAHARL-OVERLORDS_REPUTE.description": "每当你施加 [gold]自我[/gold] 时，获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。",
+  "LAHARL-OVERLORDS_REPUTE.title": "魔王的声望",
+
+  "LAHARL-DIMENSION_SLASH.description": "对所有敌人造成 {Damage:diff()} 点伤害。\n获得 {VigorPower:diff()} 层 [gold]活力[/gold]。",
+  "LAHARL-DIMENSION_SLASH.title": "次元斩",
+
+  "LAHARL-WEAKLING.description": "给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。\n敌人每有一层 [gold]虚弱[/gold]，获得 {StrengthPerWeak:diff()} 点 [gold]力量[/gold]。",
+  "LAHARL-WEAKLING.title": "弱者",
+
+  "LAHARL-KNEEL_BEFORE_ME.description": "抽 {Cards:diff} 张牌。获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-KNEEL_BEFORE_ME.title": "跪下",
+
+  "LAHARL-TYRANT_SOUL.description": "抽 {Cards:diff} 张牌。\n获得 {Energy:energyIcons()}。\n获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-TYRANT_SOUL.title": "暴君之魂",
+
+  "LAHARL-RECKLESS_ABANDON.description": "获得 {Energy:energyIcons()}。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-RECKLESS_ABANDON.title": "全力以赴",
+
+  "LAHARL-MEDITATE.description": "回复 {Heal:diff()} 点生命值。\n移除 [gold]自我[/gold]。",
+  "LAHARL-MEDITATE.title": "冥想",
+
+  "LAHARL-MAGMA_GEYSER.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {BurnPower:diff()} 层 [gold]燃烧[/gold]。",
+  "LAHARL-MAGMA_GEYSER.title": "岩浆喷射",
+
+  "LAHARL-OVERLORDS_WRATH.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {BurnPower:diff()} 层 [gold]燃烧[/gold]。",
+  "LAHARL-OVERLORDS_WRATH.title": "魔王玉",
+  
+  "LAHARL-MESSO_KOKEN.description": "带有 [gold]燃烧[/gold] 状态的敌人额外受到 {MessoKokenPower:diff()}% 的伤害。",
+  "LAHARL-MESSO_KOKEN.title": "灭葬甲剑",
+
+  "LAHARL-SHUT_UP.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。",
+  "LAHARL-SHUT_UP.title": "闭嘴",
+
+  "LAHARL-OVERRUN.description": "造成 {Damage:diff()} 点伤害。\n抽 {Cards:diff} 张牌。",
+  "LAHARL-OVERRUN.title": "过载",
+
+  "LAHARL-PETTY_SQUABBLE.description": "造成 {Damage:diff()} 点伤害。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
+  "LAHARL-PETTY_SQUABBLE.title": "嬉闹",
+
+  "LAHARL-STAND_TALL.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n抽 {Cards:diff} 张牌。",
+  "LAHARL-STAND_TALL.title": "屹立",
+
+  "LAHARL-LAST_STAND.description": "造成 {Damage:diff()} 点伤害。\n如果你的生命值低于 [blue]20%[/blue]，则攻击两次。",
+  "LAHARL-LAST_STAND.title": "背水一战",
+
+  "LAHARL-RED_MOON.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n移除 [gold]自我[/gold]。",
+  "LAHARL-RED_MOON.title": "红月",
+
+  "LAHARL-EGOMANIA.description": "在你的回合开始时，如果你拥有 [gold]自我[/gold]，则抽 {EgomaniaPower:diff()} 张牌。",
+  "LAHARL-EGOMANIA.title": "独尊",
+
+  "LAHARL-ENGULF.description": "在你的回合开始时，给予所有敌人 {BurnPerTurn:diff()} 层 [gold]燃烧[/gold]。",
+  "LAHARL-ENGULF.title": "吞噬",
+
+  "LAHARL-PATHETIC.description": "造成 {CalculatedDamage:diff()} 点伤害，对 [gold]虚弱[/gold] 状态的敌人额外造成 {ExtraDamage:diff()} 点伤害。\n获得 {Block:diff()} 点 [gold]格挡[/gold]。",
+  "LAHARL-PATHETIC.title": "可悲",
+  
+  "LAHARL-NETHER_SLASH.description": "造成 {Damage:diff()} 点伤害并给予 {BurnPower:diff()} 层 [gold]燃烧[/gold]。",
+  "LAHARL-NETHER_SLASH.title": "横扫",
+
+  "LAHARL-OVERLORDS_DIMENSION.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {WeakPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。",
+  "LAHARL-OVERLORDS_DIMENSION.title": "魔王领域",
+
+  "LAHARL-UNDYING_WILL.description": "获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。\n如果你的生命值低于 [blue]20%[/blue]，则力量获得量提升至三倍。",
+  "LAHARL-UNDYING_WILL.title": "不屈意志",
+
+  "LAHARL-OVERLORD_SHOWDOWN.description": "造成 {Damage:diff()} 点伤害。\n获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。\n敌人获得 {StrengthPower:diff()} 点 [gold]力量[/gold]。\n如果 [gold]致命[/gold]，则获得 {Energy:energyIcons()}。",
+  "LAHARL-OVERLORD_SHOWDOWN.title": "终局",
+
+  "LAHARL-PRINNY_EXPLOSION.description": "造成 {Damage:diff()} 点伤害。\n使敌人的 [gold]燃烧[/gold] 层数翻倍。",
+  "LAHARL-PRINNY_EXPLOSION.title": "普利尼自爆",
+
+  "LAHARL-OVERWHELMING_ODDS.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n如果你的生命值低于 [blue]50%[/blue]，则获得的格挡翻倍。",
+  "LAHARL-OVERWHELMING_ODDS.title": "强敌",
+
+  "LAHARL-PRINNY_WAVE.description": "对所有敌人造成 {Damage:diff()} 点伤害并给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。\n如果你拥有 [gold]自我[/gold]，则额外给予 1 层 [gold]虚弱[/gold]。",
+  "LAHARL-PRINNY_WAVE.title": "普利尼波",
+  
+  "LAHARL-FALSE_OVERLORD.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。获得 1 层 [gold]自我[/gold]。\n获得 {VigorPower:diff()} 层 [gold]活力[/gold]。\n下回合，获得 {Energy:energyIcons()}。",
+  "LAHARL-FALSE_OVERLORD.title": "伪君主",
+
+  "LAHARL-LINGERING_HATRED.description": "如果敌人带有 [gold]燃烧[/gold]，则给予 {BurnPower:diff()} 层 [gold]燃烧[/gold]。",
+  "LAHARL-LINGERING_HATRED.title": " 缠怨",
+
+  "LAHARL-PANIC.description": "抽 {Cards:diff} 张牌。获得 1 层 [gold]自我[/gold]。如果你抽到技能牌，获得 {Block:diff()} 点 [gold]格挡[/gold]。",
+  "LAHARL-PANIC.title": "恐慌"
+}

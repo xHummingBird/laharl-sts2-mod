@@ -44,7 +44,7 @@ public class OverlordsDimension() : LaharlCard(2, CardType.Attack, CardRarity.An
                 await Task.Delay((int)(duration * 0.5f * 1000f));
         } 
         
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_starry_impact", "blunt_attack.mp3")
             .WithHitVfxSpawnedAtBase()
             .BeforeDamage(async delegate

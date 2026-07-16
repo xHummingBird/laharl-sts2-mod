@@ -1,12 +1,12 @@
 {
   "id": "Laharl",
   "name": "Overlord Laharl",
-  "author": "xHummingBird",
+  "author": "HummingBird",
   "description": "Overlord Laharl Character Mod",
-  "version": "v0.9.3",
+  "version": "v1.0.0",
   "has_pck": true,
   "has_dll": true,
-  "min_game_version": "0.105.0",
-  "dependencies": [{"id": "BaseLib", "min_version": "v3.1.6"}],
+  "min_game_version": "0.107.0",
+  "dependencies": [{"id": "BaseLib", "min_version": "v3.3.0"}],
   "affects_gameplay": true
 }

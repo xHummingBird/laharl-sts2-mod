@@ -41,7 +41,7 @@ public class GetThemIdiots() : LaharlCard(1,
         int hitCount = DynamicVars.Repeat.IntValue;
         if (base.Owner.HasPower<EgoPower>())
             hitCount += 2;
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(hitCount).FromCard(this)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(hitCount).FromCard(this, cardPlay)
             .TargetingRandomOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_attack_blunt")
             .Execute(choiceContext);

@@ -49,7 +49,7 @@ public class Pathetic() : LaharlCard(1,
         }
         
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
-        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).FromCard(this)
+        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).FromCard(this, play)
             .Targeting(play.Target)
             .WithHitFx("vfx/vfx_heavy_blunt", null, "heavy_attack.mp3")
             .Execute(choiceContext);

@@ -45,7 +45,7 @@ public class WingedSlayer() : LaharlCard(2, CardType.Attack, CardRarity.Uncommon
                 await Task.Delay((int)(duration * 0.5f * 1000f));
         } 
         
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_heavy_blunt")
             .WithHitVfxSpawnedAtBase()
             .Execute(choiceContext);

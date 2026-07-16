@@ -32,8 +32,8 @@ public class VacuumSliceX() : LaharlCard(2,
         new ExtraDamageVar(3m),
         new RepeatVar(3),
         new CalculatedDamageVar(ValueProp.Move)
-            .WithMultiplier((CardModel _, Creature? dealer) =>
-                dealer?.HasPower<EgoPower>() == true ? 1 : 0)
+            .WithMultiplier((CardModel card, Creature? _) =>
+                card.Owner.Creature.HasPower<EgoPower>() == true ? 1 : 0)
     ];
 
     protected override async Task OnPlay(
@@ -53,8 +53,7 @@ public class VacuumSliceX() : LaharlCard(2,
                 await Task.Delay((int)(duration * 0.5f * 1000f));
         }
         
-        ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
-        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).WithHitCount(base.DynamicVars.Repeat.IntValue).FromCard(this)
+        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).WithHitCount(base.DynamicVars.Repeat.IntValue).FromCard(this, play)
             .Targeting(play.Target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);

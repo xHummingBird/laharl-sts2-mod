@@ -48,7 +48,7 @@ public class Bullseye() : LaharlCard(2,
         
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
         int hitCount = ((!play.Target.HasPower<WeakPower>()) ? 1 : 2);
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(hitCount).FromCard(this)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(hitCount).FromCard(this, play)
             .Targeting(play.Target)
             .WithHitFx("vfx/vfx_attack_blunt", null, "heavy_attack.mp3")
             .Execute(choiceContext);

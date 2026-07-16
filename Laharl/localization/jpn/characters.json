@@ -1,0 +1,16 @@
+{
+  "LAHARL-LAHARL.title": "魔王ラハール",
+  "LAHARL-LAHARL.titleObject": "魔王",
+  "LAHARL-LAHARL.description": "傲慢にして圧倒的な力を誇る魔界の魔王。",
+  "LAHARL-LAHARL.pronounObject": "彼",
+  "LAHARL-LAHARL.possessiveAdjective": "彼の",
+  "LAHARL-LAHARL.pronounPossessive": "彼の",
+  "LAHARL-LAHARL.pronounSubject": "彼",
+  "LAHARL-LAHARL.cardsModifierTitle": "ラハールカード",
+  "LAHARL-LAHARL.cardsModifierDescription": "報酬とショップにラハールのカードが出現するようになる。",
+  "LAHARL-LAHARL.eventDeathPrevention": "ふん……これが敗北だと……？ 馬鹿馬鹿しい。",
+  "LAHARL-LAHARL.goldMonologue": "当然だな。何しろ俺様は魔王だからな。",
+  "LAHARL-LAHARL.aromaPrinciple": "設定",
+  "LAHARL-LAHARL.banter.dead.endTurnPing": "チッ……勘違いするなよ。まだ終わったわけじゃない。",
+  "LAHARL-LAHARL.banter.alive.endTurnPing": "さっさとしろ。魔王を待たせるな。"
+}

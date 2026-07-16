@@ -1,0 +1,29 @@
+{
+"LAHARL-BURN_POWER.description": "[gold]火傷[/gold]状態のモンスターはターン開始時にHPを失う。[gold]脱力[/gold]状態ならダメージが2倍になる。毎ターン[gold]火傷[/gold]は[blue]1[/blue]現象する ",
+"LAHARL-BURN_POWER.smartDescription": "[gold]火傷[/gold]状態のモンスターはターン開始時にHPを失う。[gold]脱力[/gold]状態ならダメージが2倍になる。毎ターン[gold]火傷[/gold]は[blue]1[/blue]現象する ",
+"LAHARL-BURN_POWER.title": "火傷",
+
+"LAHARL-DARK_ASSEMBLY_POWER.description": "ターン開始時、[gold]賛成！[/gold]または[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。暗黒議会の効果は重複しない。",
+"LAHARL-DARK_ASSEMBLY_POWER.smartDescription": "ターン開始時、[gold]賛成！[/gold]または[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。暗黒議会の効果は重複しない。",
+"LAHARL-DARK_ASSEMBLY_POWER.title": "暗黒議会",
+
+"LAHARL-OVERLORDS_REPUTE_POWER.description": "[gold]エゴ[/gold]を付与するたびに[gold]筋力[/gold]を得る。",
+"LAHARL-OVERLORDS_REPUTE_POWER.smartDescription": "[gold]エゴ[/gold]を付与するたびに[gold]筋力[/gold]を得る。",
+"LAHARL-OVERLORDS_REPUTE_POWER.title": "魔王の威厳",
+
+"LAHARL-EGO_POWER.description": "ブロックされなかった攻撃ダメージを受けるたび、エゴの値に等しい追加ダメージを受け、[gold]エゴ[/gold]を1失う。",
+"LAHARL-EGO_POWER.smartDescription": "敵の攻撃で追加ダメージを受ける。被弾時に減少する。",
+"LAHARL-EGO_POWER.title": "エゴ",
+
+"LAHARL-MESSO_KOKEN_POWER.description": "[gold]火傷[/gold]状態の敵は追加ダメージを受ける。",
+"LAHARL-MESSO_KOKEN_POWER.smartDescription": "[gold]火傷[/gold]状態の敵は追加ダメージを受ける。",
+"LAHARL-MESSO_KOKEN_POWER.title": "滅葬甲剣",
+
+"LAHARL-EGOMANIA_POWER.description": "ターン開始時、[gold]エゴ[/gold]がある場合カードを引く。",
+"LAHARL-EGOMANIA_POWER.smartDescription": "ターン開始時、[gold]エゴ[/gold]がある場合カードを引く。",
+"LAHARL-EGOMANIA_POWER.title": "エゴマニア",
+
+"LAHARL-ENGULF_POWER.description": "ターン開始時、すべての敵に[gold]火傷[/gold]を付与する。",
+"LAHARL-ENGULF_POWER.smartDescription": "ターン開始時、すべての敵に[gold]火傷[/gold]を付与する。",
+"LAHARL-ENGULF_POWER.title": "飲み込む炎"
+}

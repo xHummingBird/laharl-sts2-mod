@@ -32,6 +32,7 @@ using Laharl.LaharlCode.Cards.Common;
 using Laharl.LaharlCode.Cards.Rare;
 using Laharl.LaharlCode.Cards.Uncommon;
 using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Context;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Rewards;
 using MegaCrit.Sts2.Core.Runs;
@@ -100,23 +101,15 @@ public class Laharl : PlaceholderCharacterModel
     public override string CustomMapMarkerPath => "map_marker_laharl.png".CharacterUiPath();
     public override string CustomRestSiteAnimPath => "res://Laharl/scenes/Laharl_rest_site.tscn";
     public override string CustomMerchantAnimPath => "res://Laharl/scenes/LaharlMerchant.tscn";
+    public override string CharacterSelectSfx => "res://Laharl/images/Laharl/laughter.mp3";
     
-    // =========================================================
-    //  VISUALS: Load your sprite-based .tscn (Visuals + AnimationPlayer + Bounds)
-    // =========================================================
     public override NCreatureVisuals? CreateCustomVisuals()
     {
-        // This converts your .tscn into an NCreatureVisuals-compatible instance.
-        // Your scene currently has: Visuals (Node2D), AnimationPlayer, Bounds (Control).
         return NodeFactory<NCreatureVisuals>.CreateFromScene(CustomVisualScenePath);
     }
 
     // If you're using sprite-based visuals, you typically do NOT want a MegaSpine animator.
     public override CreatureAnimator? GenerateAnimator(MegaSprite controller) => null;
-
-    // =========================================================
-    //  BASIC ANIMATION PLAYER BRIDGE
-    // =========================================================
     
     public (float total, float[] impacts) PlayAnimation(Creature creature, string trigger)
     {
@@ -152,16 +145,10 @@ public class Laharl : PlaceholderCharacterModel
         
         if (godotTrigger != "idle_loop" && godotTrigger != "die")
             animPlayer.Queue("idle_loop");
-
-        // impacts intentionally empty for now
+        
         return (totalLength, Array.Empty<float>());
-    } // ✅ CLOSE PlayAnimation HERE
-
-
-    // =========================================================
-    //  HARMONY PATCHES: minimal trigger routing & death duration
-    // =========================================================
-
+    } 
+    
     [HarmonyPatch(typeof(NCreature), nameof(NCreature.SetAnimationTrigger))]
     public static class NCreatureSetTriggerPatch
     {
@@ -195,51 +182,40 @@ public class Laharl : PlaceholderCharacterModel
         }
     }
     
-    [HarmonyPatch(typeof(NFakeMerchant), "AfterRoomIsLoaded")]
-    public static class FakeMerchantLayeringPatch
-    {
-        [HarmonyPostfix]
-        public static void Postfix(NFakeMerchant __instance)
-        {
-            var container = AccessTools.Field(typeof(NFakeMerchant), "_characterContainer")
-                .GetValue(__instance) as Control;
-        
-            if (container != null)
-            {
-                container.ZIndex = -1; 
-            
-                var inventory = AccessTools.Field(typeof(NFakeMerchant), "_inventory")
-                    .GetValue(__instance) as Control;
-                if (inventory != null)
-                {
-                    inventory.ZIndex = 10;
-                }
-            }
-        }
-    }
-    
     [HarmonyPatch(typeof(Hook), nameof(Hook.AfterCombatVictory))]
     public static class LaharlVictoryAnimationPatch
     {
         [HarmonyPostfix]
         public static void Postfix(IRunState runState, CombatState? combatState)
         {
-            var creature = combatState?.Creatures?.FirstOrDefault(c => c.IsPlayer);
-            
-            if (creature?.Player?.Character is not Laharl)
+            var creatures = combatState?.Creatures?.Where(c => c.IsPlayer);
+
+            if (creatures == null)
                 return;
-            
-            SfxCmd.Play("res://Laharl/sfx/victory_fanfare.wav");
-            var node = NCombatRoom.Instance?.GetCreatureNode(creature);
-            var animPlayer = node?.Visuals?.GetNodeOrNull<AnimationPlayer>("AnimationPlayer");
-            
-            if (animPlayer == null)
-                return;
-    
-            if (animPlayer.HasAnimation("victory"))
+
+            foreach (var creature in creatures)
             {
-                animPlayer.Play("victory");
-                AudioHelper.PlayRandomVictory();
+                if (creature.Player?.Character is not Laharl)
+                    continue;
+                
+                if (LocalContext.IsMe(creature.Player))
+                {
+                    SfxCmd.Play("res://Laharl/sfx/victory_fanfare.wav");
+                }
+
+                var node = NCombatRoom.Instance?.GetCreatureNode(creature);
+                var animPlayer = node?.Visuals?.GetNodeOrNull<AnimationPlayer>("AnimationPlayer");
+
+                if (animPlayer == null)
+                    continue;
+
+                if (animPlayer.HasAnimation("victory"))
+                {
+                    animPlayer.Play("victory");
+
+                    // Optional: also local-only if needed
+                    AudioHelper.PlayRandomVictory();
+                }
             }
         }
     }
@@ -267,7 +243,6 @@ public class Laharl : PlaceholderCharacterModel
                     character.PlayAnimation(target, "block"); 
             }
             
-            // Only when HP damage actually happened
             else if (result.UnblockedDamage > 0 && !target.IsDead)
             {
                 AudioHelper.PlayRandomDamaged();

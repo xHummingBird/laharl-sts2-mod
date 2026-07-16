@@ -1,0 +1,187 @@
+{
+  "LAHARL-DEFEND_LAHARL.title": "防御",
+  "LAHARL-DEFEND_LAHARL.description": "{Block:diff()} [gold]ブロック[/gold]を得る。",
+  
+  "LAHARL-STRIKE_LAHARL.title": "ストライク",
+  "LAHARL-STRIKE_LAHARL.description": "{Damage:diff()}ダメージを与える。",
+  
+  "LAHARL-BLAZING_KNUCKLE.title": "獄炎ナックル",
+  "LAHARL-BLAZING_KNUCKLE.description": "すべての敵に{Damage:diff()}ダメージを与え、[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  
+  "LAHARL-OVERLORDS_DIGNITY.description": "[gold]筋力[/gold]{StrengthPower:diff()}を得る。[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-OVERLORDS_DIGNITY.title": "魔王の矜持",
+  
+  "LAHARL-BLADE_RUSH.description": "すべての敵に{Damage:diff()}ダメージを与える。",
+  "LAHARL-BLADE_RUSH.title": "一文字スラッシュ",
+  
+  "LAHARL-YULETIDE_OVERLORD.description": "すべての敵に{Damage:diff()}ダメージを与える。HPを{Heal:diff()}回復する。",
+  "LAHARL-YULETIDE_OVERLORD.title": "聖夜の魔王",
+  
+  "LAHARL-CONTEMPT_GAZE.description": "[gold]脱力[/gold]{WeakPower:diff()}と[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  "LAHARL-CONTEMPT_GAZE.title": "制圧の眼光",
+  
+  "LAHARL-HURRICANE_SLASH.description": "{CalculatedDamage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]火傷[/gold]状態の敵には、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-HURRICANE_SLASH.title": "竜巻破裏剣",
+  
+  "LAHARL-OVERLORDS_TAUNT.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]弱体[/gold]{VulnerablePower:diff()}を付与する。\n[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-OVERLORDS_TAUNT.title": "ハーッハッハッハ！",
+  
+  "LAHARL-WINGED_SLAYER.description": "{Damage:diff()}ダメージを与え、すべての敵に[gold]弱体[/gold]{VulnerablePower:diff()}を付与する。",
+  "LAHARL-WINGED_SLAYER.title": "飛天無双斬",
+  
+  "LAHARL-HELLFIRE_KNUCKLE.description": "{Damage:diff()}ダメージを与え、すべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-HELLFIRE_KNUCKLE.title": "獄炎ナックル改",
+  
+  "LAHARL-VACUUM_SLICE_X.description": "{CalculatedDamage:diff()}ダメージを{Repeat:diff()}回与える。 [gold]エゴ[/gold]がある場合、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-VACUUM_SLICE_X.title": "震空斬破Ｘの太刀",
+  
+  "LAHARL-ARROGANCE.description": "[gold]活力[/gold]{VigorPower:diff()}を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-ARROGANCE.title": "傲慢",
+  
+  "LAHARL-DARK_ASSEMBLY.description": "ターン開始時、[gold]賛成！[/gold]または[gold]反対！[/gold]を1枚[gold]手札[/gold]に加える。\nこの効果は重複しない。",
+  "LAHARL-DARK_ASSEMBLY.title": "暗黒議会",
+  
+  "LAHARL-AYE.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]エゴ[/gold]がある場合、さらに{Block:diff()}[gold]ブロック[/gold]を得る。",
+  "LAHARL-AYE.title": "賛成！",
+  
+  "LAHARL-NAY.description": "{Damage:diff()}ダメージを与える。\n[gold]エゴ[/gold]がある場合、2回攻撃する。",
+  "LAHARL-NAY.title": "反対！",
+  
+  "LAHARL-BRIBERY.description": "カードを1枚[blue]廃棄[/blue]する。\n[gold]賛成！[/gold]を1枚手札に加える。",
+  "LAHARL-BRIBERY.title": "ワイロを渡す",
+  
+  "LAHARL-OVERLORDS_ARMOR.description": "[gold]プレート[/gold]{PlatingPower:diff()}を得る。[gold]エゴ[/gold]がある場合、さらに[gold]プレート[/gold]2を得る。",
+  "LAHARL-OVERLORDS_ARMOR.title": "魔王の鎧",
+  
+  "LAHARL-PERSUADE_BY_FORCE.description": "{Damage:diff()}ダメージを与える。\n[gold]賛成！[/gold]を1枚[gold]手札[/gold]に加える。",
+  "LAHARL-PERSUADE_BY_FORCE.title": "力ずくで説得",
+  
+  "LAHARL-SURROUNDED.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-SURROUNDED.title": "囲まれたッス！",
+  
+  "LAHARL-EXPLODING_PRESENTS.description": "ランダムな敵に{Damage:diff()}ダメージを5回与える。\n{Energy:energyIcons()}を得る。",
+  "LAHARL-EXPLODING_PRESENTS.title": "爆発プレゼント",
+  
+  "LAHARL-FIGHT_ME_DOOD.description": "{Damage:diff()}ダメージを与える。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-FIGHT_ME_DOOD.title": "かかってこいッス！",
+  
+  "LAHARL-METEOR_IMPACT.description": "すべての敵に{Damage:diff()}ダメージを与える。\nすべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-METEOR_IMPACT.title": "メテオインパクト",
+  
+  "LAHARL-DENIED.description": "すべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。\n[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。",
+  "LAHARL-DENIED.title": "却下だ！",
+  
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "{Damage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]賛成！[/gold]または[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。",
+  "LAHARL-DISCIPLINE_COMMITTEE.title": "風紀委員会",
+  
+  "LAHARL-NICK.description": "{Damage:diff()}ダメージを与える。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-NICK.title": "かすりヒット！",
+  
+  "LAHARL-BULLSEYE.description": "{Damage:diff()}ダメージを与える。敵が[gold]脱力[/gold]状態なら2回攻撃する。",
+  "LAHARL-BULLSEYE.title": "的中！",
+  
+  "LAHARL-IGNITE.description": "{CalculatedDamage:diff()}ダメージを与える。\n敵の[gold]火傷[/gold]1つにつき、追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-IGNITE.title": "燃えろ！",
+  
+  "LAHARL-MOCKING_STRIKE.description": "{Damage:diff()}ダメージを与え、[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-MOCKING_STRIKE.title": "馬鹿め！",
+  
+  "LAHARL-SIPHON_WEAKNESS.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]脱力[/gold]状態の敵がいる場合、{Cards:diff()}枚カードを引く。",
+  "LAHARL-SIPHON_WEAKNESS.title": "弱さの吸収",
+  
+  "LAHARL-OVERLORDS_REPUTE.description": "[gold]エゴ[/gold]を付与するたびに、[gold]筋力[/gold]{StrengthPower:diff()}を得る。",
+  "LAHARL-OVERLORDS_REPUTE.title": "魔王の威厳",
+  
+  "LAHARL-DIMENSION_SLASH.description": "すべての敵に{Damage:diff()}ダメージを与える。\n[gold]活力[/gold]{VigorPower:diff()}を得る。",
+  "LAHARL-DIMENSION_SLASH.title": "大次元斬『一閃』",
+  
+  "LAHARL-WEAKLING.description": "[gold]脱力[/gold]{WeakPower:diff()}を付与する。\n敵の[gold]脱力[/gold]1つにつき、[gold]筋力[/gold]{StrengthPerWeak:diff()}を得る。",
+  "LAHARL-WEAKLING.title": "弱虫め！",
+  
+  "LAHARL-KNEEL_BEFORE_ME.description": "{Cards:diff()}枚カードを引く。[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-KNEEL_BEFORE_ME.title": "オレ様に従え！",
+  
+  "LAHARL-TYRANT_SOUL.description": "{Cards:diff()}枚カードを引く。\n{Energy:energyIcons()}を得る。\n[gold]筋力[/gold]{StrengthPower:diff()}を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-TYRANT_SOUL.title": "超魔王魂",
+  
+  "LAHARL-RECKLESS_ABANDON.description": "{Energy:energyIcons()}を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-RECKLESS_ABANDON.title": "捨て身",
+  
+  "LAHARL-MEDITATE.description": "HPを{Heal:diff()}回復する。\n[gold]エゴ[/gold]を取り除く。",
+  "LAHARL-MEDITATE.title": "瞑想",
+  
+  "LAHARL-MAGMA_GEYSER.description": "すべての敵に{Damage:diff()}ダメージを与え、[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  "LAHARL-MAGMA_GEYSER.title": "マグマガイザー",
+  
+  "LAHARL-OVERLORDS_WRATH.description": "すべての敵に{Damage:diff()}ダメージを与え、[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  "LAHARL-OVERLORDS_WRATH.title": "魔王玉",
+  
+  "LAHARL-MESSO_KOKEN.description": "[gold]火傷[/gold]状態の敵が受けるダメージが{MessoKokenPower:diff()}%増加する。",
+  "LAHARL-MESSO_KOKEN.title": "滅葬甲剣",
+  
+  "LAHARL-SHUT_UP.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-SHUT_UP.title": "黙れ！",
+  
+  "LAHARL-OVERRUN.description": "{Damage:diff()}ダメージを与える。\n{Cards:diff()}枚カードを引く。",
+  "LAHARL-OVERRUN.title": "オーバーラン",
+  
+  "LAHARL-PETTY_SQUABBLE.description": "{Damage:diff()}ダメージを与える。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
+  "LAHARL-PETTY_SQUABBLE.title": "くだらん争い",
+  
+  "LAHARL-STAND_TALL.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n{Cards:diff()}枚カードを引く。",
+  "LAHARL-STAND_TALL.title": "堂々と立て",
+  
+  "LAHARL-LAST_STAND.description": "{Damage:diff()}ダメージを与える。\nHPが[blue]20%[/blue]未満なら2回攻撃する。",
+  "LAHARL-LAST_STAND.title": "ラストスタンド",
+  
+  "LAHARL-RED_MOON.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]エゴ[/gold]を取り除く。",
+  "LAHARL-RED_MOON.title": "赤い月",
+  
+  "LAHARL-EGOMANIA.description": "ターン開始時、[gold]エゴ[/gold]がある場合{EgomaniaPower:diff()}枚カードを引く。",
+  "LAHARL-EGOMANIA.title": "エゴマニア",
+  
+  "LAHARL-ENGULF.description": "ターン開始時、すべての敵に[gold]火傷[/gold]{BurnPerTurn:diff()}を付与する。",
+  "LAHARL-ENGULF.title": "飲み込む炎",
+  
+  "LAHARL-PATHETIC.description": "{CalculatedDamage:diff()}ダメージを与える。[gold]脱力[/gold]状態の敵には追加で{ExtraDamage:diff()}ダメージを与える。\n{Block:diff()}[gold]ブロック[/gold]を得る。",
+  "LAHARL-PATHETIC.title": "情けない奴め！",
+  
+  "LAHARL-NETHER_SLASH.description": "{Damage:diff()}ダメージを与え、[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  "LAHARL-NETHER_SLASH.title": "魔界横一文字",
+  
+  "LAHARL-OVERLORDS_DIMENSION.description": "{Damage:diff()}ダメージを与え、すべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-OVERLORDS_DIMENSION.title": "魔王ディメンション",
+  
+  "LAHARL-UNDYING_WILL.description": "[gold]筋力[/gold]{StrengthPower:diff()}を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。\nHPが[blue]20%[/blue]未満なら、得る[gold]筋力[/gold]が3倍になる。",
+  "LAHARL-UNDYING_WILL.title": "不屈の意志",
+  
+  "LAHARL-OVERLORD_SHOWDOWN.description": "{Damage:diff()}ダメージを与える。\n[gold]筋力[/gold]{StrengthPower:diff()}を得る。\n敵も[gold]筋力[/gold]{StrengthPower:diff()}を得る。\n[gold]リーサル[/gold]時、{Energy:energyIcons()}を得る。",
+  "LAHARL-OVERLORD_SHOWDOWN.title": "魔王対決",
+  
+  "LAHARL-PRINNY_EXPLOSION.description": "{Damage:diff()}ダメージを与える。\n敵の[gold]火傷[/gold]を2倍にする。",
+  "LAHARL-PRINNY_EXPLOSION.title": "プリニー爆弾",
+  
+  "LAHARL-OVERWHELMING_ODDS.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\nHPが[blue]50%[/blue]未満なら、得る[gold]ブロック[/gold]が2倍になる。",
+  "LAHARL-OVERWHELMING_ODDS.title": "絶望的な戦況",
+  
+  "LAHARL-PRINNY_WAVE.description": "{Damage:diff()}ダメージを与え、すべての敵に[gold]脱力[/gold]{WeakPower:diff()}を付与する。\n[gold]エゴ[/gold]がある場合、さらに[gold]脱力[/gold]を付与する。",
+  "LAHARL-PRINNY_WAVE.title": "プリニーウェーブ",
+  
+  "LAHARL-FALSE_OVERLORD.description": "{Block:diff()}[gold]ブロック[/gold]を得る。[gold]エゴ[/gold]1を得る。\n[gold]活力[/gold]{VigorPower:diff()}を得る。\n次のターン、{Energy:energyIcons()}を得る。",
+  "LAHARL-FALSE_OVERLORD.title": "偽物の魔王",
+  
+  "LAHARL-LINGERING_HATRED.description": "敵が[gold]火傷[/gold]状態なら、[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
+  "LAHARL-LINGERING_HATRED.title": "消えぬ憎悪",
+  
+  "LAHARL-PANIC.description": "{Cards:diff()}枚カードを引く。[gold]エゴ[/gold]1を得る。スキルカードを引いた場合、{Block:diff()}[gold]ブロック[/gold]を得る。",
+  "LAHARL-PANIC.title": "大変ッス！",
+  
+  "LAHARL-ROYAL_BULLY.description": "{CalculatedDamage:diff()}ダメージを与える。\n敵の[gold]脱力[/gold]1つにつき、追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-ROYAL_BULLY.title": "魔王のいじめ",
+  
+  "LAHARL-GET_THEM_IDIOTS.description": "ランダムな敵に{Damage:diff()}ダメージを3回与える。\n[gold]エゴ[/gold]がある場合、さらに2回攻撃する。",
+  "LAHARL-GET_THEM_IDIOTS.title": "やっちまえ、お前ら！",
+  
+  "LAHARL-SIS_LORD_SKY_FIST.description": "{Damage:diff()}ダメージを与える。\n敵が[gold]火傷[/gold]状態なら、[gold]弱体[/gold]{VulnerablePower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
+  "LAHARL-SIS_LORD_SKY_FIST.title": "始祖・魔天拳"
+}

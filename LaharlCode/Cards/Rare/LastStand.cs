@@ -39,7 +39,7 @@ public class LastStand() : LaharlCard(3,
         
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
         int hitCount = ((base.Owner.Creature.CurrentHp * 5 < base.Owner.Creature.MaxHp) ? 2 : 1);
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).WithHitCount(hitCount).Targeting(play.Target)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, play).WithHitCount(hitCount).Targeting(play.Target)
             .WithHitFx("vfx/vfx_attack_slash", null, "heavy_attack.mp3")
             .Execute(choiceContext);
     }

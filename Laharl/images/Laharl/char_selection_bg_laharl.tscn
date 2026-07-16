@@ -1,8 +1,7 @@
-[gd_scene load_steps=7 format=3 uid="uid://cam83kagajc4e"]
+[gd_scene load_steps=6 format=3 uid="uid://cam83kagajc4e"]
 
 [ext_resource type="Texture2D" uid="uid://byrjk4322o5wy" path="res://Laharl/images/Laharl/char_select_bg_background.png" id="1_dkvx3"]
 [ext_resource type="Texture2D" uid="uid://cninao76bqylf" path="res://Laharl/images/Laharl/char_select_bg_body.png" id="2_cwc1b"]
-[ext_resource type="AudioStream" uid="uid://d3voyftbf2jap" path="res://Laharl/sfx/laughter.mp3" id="3_cwc1b"]
 
 [sub_resource type="Animation" id="Animation_wejj4"]
 length = 0.001
@@ -30,10 +29,22 @@ tracks/1/keys = {
 "update": 0,
 "values": [Vector2(3715, 732)]
 }
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("laharl:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
 
 [sub_resource type="Animation" id="Animation_lysqo"]
 resource_name = "char_background_bg"
-length = 2.5
+length = 0.5
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -53,26 +64,23 @@ tracks/1/path = NodePath("laharl:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.3),
+"times": PackedFloat32Array(0, 0.4),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(2885, 709), Vector2(1895, 709)]
+"values": [Vector2(2196, 709), Vector2(1895, 709)]
 }
-tracks/2/type = "audio"
+tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("AnimationPlayer/AudioStreamPlayer")
+tracks/2/path = NodePath("laharl:modulate")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
-"clips": [{
-"end_offset": 0.0,
-"start_offset": 0.0,
-"stream": ExtResource("3_cwc1b")
-}],
-"times": PackedFloat32Array(0)
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
 }
-tracks/2/use_blend = false
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_jfhq3"]
 _data = {
@@ -110,8 +118,6 @@ libraries = {
 &"": SubResource("AnimationLibrary_jfhq3")
 }
 autoplay = "char_background_bg"
-
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="AnimationPlayer"]
 
 [node name="laharl" type="Sprite2D" parent="."]
 position = Vector2(3715, 732)

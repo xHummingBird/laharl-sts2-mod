@@ -1,0 +1,29 @@
+{
+"LAHARL-YOSHITSUNA.description": "各戦闘の開始時、[gold]活力[/gold][blue]{VigorPower}[/blue]を得る。",
+"LAHARL-YOSHITSUNA.flavor": "[red]このレリックの詳細は今後公開予定です…[/red]",
+"LAHARL-YOSHITSUNA.title": "魔剣良綱",
+
+"LAHARL-INFERNAL_SWORD.description": "[gold]火傷[/gold]状態の敵が受けるダメージが[blue]25%[/blue]増加する。",
+"LAHARL-INFERNAL_SWORD.flavor": "[red]このレリックの詳細は今後公開予定です…[/red]",
+"LAHARL-INFERNAL_SWORD.title": "滅葬甲剣",
+
+"LAHARL-FLAME_ORB.description": "[gold]火傷[/gold]を付与するたび、追加で[gold]火傷[/gold]を1付与する。",
+"LAHARL-FLAME_ORB.flavor": "[red]このレリックの詳細は今後公開予定です…[/red]",
+"LAHARL-FLAME_ORB.title": "かえんだま",
+
+"LAHARL-BAAL_SWORD.description": "[gold]魔王の次元[/gold]を獲得する。各戦闘の開始時、[gold]活力[/gold][blue]{VigorPower}[/blue]を得る。",
+"LAHARL-BAAL_SWORD.flavor": "[red]このレリックの詳細は今後公開予定です…[/red]",
+"LAHARL-BAAL_SWORD.title": "バール剣",
+
+"LAHARL-HELLFIRE_KNUCKLE_RELIC.description": "各戦闘の開始時、すべての敵に[gold]火傷[/gold]5を付与する。",
+"LAHARL-HELLFIRE_KNUCKLE_RELIC.flavor": "[red]このレリックの詳細は今後公開予定です…[/red]",
+"LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "魔王のナックル",
+
+"LAHARL-SUPER_ROBO_SUIT.description": "[gold]エゴ[/gold]を付与するたびに3[gold]ブロック[/gold]を得る。",
+"LAHARL-SUPER_ROBO_SUIT.flavor": "[gold]エゴ[/gold]を付与するたびに3[gold]ブロック[/gold]を得る。",
+"LAHARL-SUPER_ROBO_SUIT.title": "超合金ロボスーツ",
+
+"LAHARL-PRINNY_SUIT.description": "ブロックでダメージを防いだ時、攻撃者に[gold]火傷[/gold]2を付与する。",
+"LAHARL-PRINNY_SUIT.flavor": "ブロックでダメージを防いだ時、攻撃者に[gold]火傷[/gold]2を付与する。",
+"LAHARL-PRINNY_SUIT.title": "プリニースーツ"
+}

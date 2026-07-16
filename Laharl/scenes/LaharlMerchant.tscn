@@ -1,10 +1,54 @@
-[gd_scene load_steps=3 format=3 uid="uid://bl4m677cq6lqh"]
+[gd_scene load_steps=6 format=3 uid="uid://bl4m677cq6lqh"]
 
 [ext_resource type="Script" uid="uid://byembed740uco" path="res://Laharl/scenes/LaharlNMerchantCharacter.cs" id="1_fe2x1"]
 [ext_resource type="Texture2D" uid="uid://didrjb0a2cvp3" path="res://Laharl/images/Laharl/laharl_shop.png" id="1_g4kr2"]
 
+[sub_resource type="Animation" id="Animation_no2cw"]
+resource_name = "LaharlMerchant"
+length = 0.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlShop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_g4kr2")]
+}
+
+[sub_resource type="Animation" id="Animation_fe2x1"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("LaharlShop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("1_g4kr2")]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_cbkfx"]
+_data = {
+&"LaharlMerchant": SubResource("Animation_no2cw"),
+&"RESET": SubResource("Animation_fe2x1")
+}
+
 [node name="LaharlMerchant" type="Node2D"]
 script = ExtResource("1_fe2x1")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_cbkfx")
+}
+autoplay = "LaharlMerchant"
 
 [node name="LaharlShop" type="Sprite2D" parent="."]
 position = Vector2(0, -133)

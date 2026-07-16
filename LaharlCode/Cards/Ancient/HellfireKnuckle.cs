@@ -44,7 +44,7 @@ public class HellfireKnuckle() : LaharlCard(1, CardType.Attack, CardRarity.Ancie
             laharl.PlayAnimation(ownerCreature, "punch_laharl");
             SfxCmd.Play("res://Laharl/sfx/blazing_knuckle.mp3");
         }
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).TargetingAllOpponents(base.CombatState)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, play).TargetingAllOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_heavy_blunt", null, "blunt_attack.mp3")
             .WithHitVfxSpawnedAtBase()
             .BeforeDamage(async delegate

@@ -39,12 +39,12 @@ public class SisLordSkyFist() : LaharlCard(2, CardType.Attack,
             SfxCmd.Play("res://Laharl/sfx/maou_no_chikara.mp3");
             
         }
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this).Targeting(cardPlay.Target)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).FromCard(this, cardPlay).Targeting(cardPlay.Target)
             .WithHitFx("vfx/vfx_attack_blunt", null, "blunt_attack.mp3")
             .Execute(choiceContext);
         NCombatRoom.Instance?.CombatVfxContainer.AddChildSafely(NGroundFireVfx.Create(cardPlay.Target));
         SfxCmd.Play("event:/sfx/characters/attack_fire");
-        if (cardPlay.Target != null)
+        if (cardPlay.Target != null && cardPlay.Target.HasPower<BurnPower>())
         {
             await PowerCmd.Apply<VulnerablePower>(choiceContext, cardPlay.Target, DynamicVars.Vulnerable.BaseValue, base.Owner.Creature, this);
             await PowerCmd.Apply<WeakPower>(choiceContext, cardPlay.Target, DynamicVars.Weak.BaseValue, base.Owner.Creature, this);

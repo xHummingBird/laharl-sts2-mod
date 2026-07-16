@@ -21,17 +21,17 @@ public class FlameOrb() : LaharlRelic
         new PowerVar<BurnPower>(1m)
     ];
 
-    public override decimal ModifyPowerAmountGiven(PowerModel power, Creature giver, decimal amount, Creature? target, CardModel? cardSource)
+    public override decimal ModifyPowerAmountGivenAdditive(PowerModel power, Creature giver, decimal amount, Creature? target, CardModel? cardSource)
     {
         if (!(power is BurnPower))
         {
-            return amount;
+            return 0m;
         }
         if (giver != base.Owner.Creature)
         {
-            return amount;
+            return 0m;
         }
-        return amount + (decimal)base.DynamicVars["BurnPower"].IntValue;
+        return base.DynamicVars["BurnPower"].BaseValue;
     }
 
     public override Task AfterModifyingPowerAmountGiven(PowerModel power)
