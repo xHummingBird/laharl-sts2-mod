@@ -21,14 +21,14 @@ public class ExplodingPresents() : LaharlCard(3,
     protected override IEnumerable<DynamicVar> CanonicalVars => 
         [
             new DamageVar(6m, ValueProp.Move),
-            new RepeatVar(5),
+            new HitCountVar(5),
             new EnergyVar(1)
         ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(base.DynamicVars.Repeat.IntValue).FromCard(this, cardPlay)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(base.DynamicVars.HitCount.IntValue).FromCard(this, cardPlay)
             .TargetingRandomOpponents(base.CombatState)
             .WithHitFx("vfx/vfx_starry_impact")
             .Execute(choiceContext);

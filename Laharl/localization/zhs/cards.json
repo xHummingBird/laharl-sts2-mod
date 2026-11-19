@@ -20,7 +20,7 @@
   "LAHARL-CONTEMPT_GAZE.description": "给予 {WeakPower:diff()} 层 [gold]虚弱[/gold] 和 [gold]燃烧[/gold]。",
   "LAHARL-CONTEMPT_GAZE.title": "蔑视",
 
-  "LAHARL-HURRICANE_SLASH.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {Repeat:diff()} 次。\n对 [gold]燃烧[/gold] 状态的敌人每次额外造成 {ExtraDamage:diff()} 点伤害。",
+  "LAHARL-HURRICANE_SLASH.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {HitCount:diff()} 次。\n对 [gold]燃烧[/gold] 状态的敌人每次额外造成 {ExtraDamage:diff()} 点伤害。",
   "LAHARL-HURRICANE_SLASH.title": "飓风斩",
 
   "LAHARL-OVERLORDS_TAUNT.description": "获得 {Block:diff()} 点 [gold]格挡[/gold]。\n给予 {VulnerablePower:diff()} 层 [gold]易伤[/gold]。\n给予 {WeakPower:diff()} 层 [gold]虚弱[/gold]。",
@@ -32,7 +32,7 @@
   "LAHARL-HELLFIRE_KNUCKLE.description": "造成 {Damage:diff()} 点伤害，给予所有敌人 {WeakPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。",
   "LAHARL-HELLFIRE_KNUCKLE.title": "炼狱炎拳",
 
-  "LAHARL-VACUUM_SLICE_X.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {Repeat:diff()} 次。如果你拥有 [gold]自我[/gold]，每次命中额外造成 {ExtraDamage:diff()} 点伤害。",
+  "LAHARL-VACUUM_SLICE_X.description": "造成 {CalculatedDamage:diff()} 点伤害，重复 {HitCount:diff()} 次。如果你拥有 [gold]自我[/gold]，每次命中额外造成 {ExtraDamage:diff()} 点伤害。",
   "LAHARL-VACUUM_SLICE_X.title": "真空斩 X",
 
   "LAHARL-ARROGANCE.description": "获得 {VigorPower:diff()} 层 [gold]活力[/gold]。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",
@@ -71,7 +71,7 @@
   "LAHARL-DENIED.description": "给予所有敌人 {BurnPower:diff()} 层 [gold]燃烧[/gold] 和 [gold]虚弱[/gold]。\n将 [blue]1[/blue] 张 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。",
   "LAHARL-DENIED.title": "驳回",
 
-  "LAHARL-DISCIPLINE_COMMITTEE.description": "造成 {Damage:diff()} 点伤害，重复 {Repeat:diff()} 次。\n将 [blue]1[/blue] 张 [gold]赞成！[/gold] 或 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。",
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "造成 {Damage:diff()} 点伤害，重复 {HitCount:diff()} 次。\n将 [blue]1[/blue] 张 [gold]赞成！[/gold] 或 [gold]反对！[/gold] 加入你的 [gold]手牌[/gold]。",
   "LAHARL-DISCIPLINE_COMMITTEE.title": "风纪委员会",
 
   "LAHARL-NICK.description": "造成 {Damage:diff()} 点伤害。\n获得 {EgoPower:diff()} 层 [gold]自我[/gold]。",

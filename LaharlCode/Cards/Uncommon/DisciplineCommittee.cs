@@ -17,7 +17,7 @@ public class DisciplineCommittee() : LaharlCard(2,
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(8m, ValueProp.Move),
-        new RepeatVar(2),
+        new HitCountVar(2),
     ];
     
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
@@ -36,7 +36,7 @@ public class DisciplineCommittee() : LaharlCard(2,
             SfxCmd.Play("res://Laharl/sfx/kakugou.mp3");
         }
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
-        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(base.DynamicVars.Repeat.IntValue).FromCard(this, play)
+        await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(base.DynamicVars.HitCount.IntValue).FromCard(this, play)
             .Targeting(play.Target)
             .WithHitFx("vfx/vfx_attack_slash")
             .Execute(choiceContext);

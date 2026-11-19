@@ -27,7 +27,7 @@ public class SuperRoboSuit() : LaharlRelic
     
     public override async Task AfterPowerAmountChanged(PlayerChoiceContext choiceContext, PowerModel power, decimal amount, Creature? applier, CardModel? cardSource)
     {
-        if (!(amount <= 0m) && applier == base.Owner.Creature && power is EgoPower)
+        if (amount > 0m && power.Owner == base.Owner.Creature && power is EgoPower)
         {
             Flash();
             await CreatureCmd.GainBlock(base.Owner.Creature, base.DynamicVars.Block, null);

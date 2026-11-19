@@ -40,7 +40,7 @@ public class PrinnySuit() : LaharlRelic
         if (target != base.Owner.Creature)
             return;
 
-        if (result.UnblockedDamage >= 0)
+        if (result.UnblockedDamage > 0)
             return;
         
         if (dealer == null || !dealer.IsEnemy)

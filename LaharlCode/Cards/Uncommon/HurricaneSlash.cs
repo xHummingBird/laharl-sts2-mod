@@ -28,7 +28,7 @@ public class HurricaneSlash() : LaharlCard(2,
         
         new CalculationBaseVar(8m),
         new ExtraDamageVar(4m),
-        new RepeatVar(2),
+        new HitCountVar(2),
         new CalculatedDamageVar(ValueProp.Move)
             .WithMultiplier((CardModel _, Creature? target) =>
                 target?.HasPower<BurnPower>() == true ? 1 : 0)
@@ -54,7 +54,7 @@ public class HurricaneSlash() : LaharlCard(2,
         }
         
         ArgumentNullException.ThrowIfNull(play.Target, "play.Target");
-        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).WithHitCount(base.DynamicVars.Repeat.IntValue).FromCard(this, play)
+        await DamageCmd.Attack(base.DynamicVars.CalculatedDamage).WithHitCount(base.DynamicVars.HitCount.IntValue).FromCard(this, play)
             .Targeting(play.Target)
             .WithHitFx("vfx/vfx_attack_slash", null, "heavy_attack.mp3")
             .Execute(choiceContext);

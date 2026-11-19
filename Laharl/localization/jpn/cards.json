@@ -20,7 +20,7 @@
   "LAHARL-CONTEMPT_GAZE.description": "[gold]脱力[/gold]{WeakPower:diff()}と[gold]火傷[/gold]{BurnPower:diff()}を付与する。",
   "LAHARL-CONTEMPT_GAZE.title": "制圧の眼光",
   
-  "LAHARL-HURRICANE_SLASH.description": "{CalculatedDamage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]火傷[/gold]状態の敵には、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-HURRICANE_SLASH.description": "{CalculatedDamage:diff()}ダメージを{HitCount:diff()}回与える。\n[gold]火傷[/gold]状態の敵には、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
   "LAHARL-HURRICANE_SLASH.title": "竜巻破裏剣",
   
   "LAHARL-OVERLORDS_TAUNT.description": "{Block:diff()}[gold]ブロック[/gold]を得る。\n[gold]弱体[/gold]{VulnerablePower:diff()}を付与する。\n[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
@@ -32,7 +32,7 @@
   "LAHARL-HELLFIRE_KNUCKLE.description": "{Damage:diff()}ダメージを与え、すべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。",
   "LAHARL-HELLFIRE_KNUCKLE.title": "獄炎ナックル改",
   
-  "LAHARL-VACUUM_SLICE_X.description": "{CalculatedDamage:diff()}ダメージを{Repeat:diff()}回与える。 [gold]エゴ[/gold]がある場合、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
+  "LAHARL-VACUUM_SLICE_X.description": "{CalculatedDamage:diff()}ダメージを{HitCount:diff()}回与える。 [gold]エゴ[/gold]がある場合、ヒットごとに追加で{ExtraDamage:diff()}ダメージを与える。",
   "LAHARL-VACUUM_SLICE_X.title": "震空斬破Ｘの太刀",
   
   "LAHARL-ARROGANCE.description": "[gold]活力[/gold]{VigorPower:diff()}を得る。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",
@@ -71,7 +71,7 @@
   "LAHARL-DENIED.description": "すべての敵に[gold]火傷[/gold]{BurnPower:diff()}と[gold]脱力[/gold]{WeakPower:diff()}を付与する。\n[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。",
   "LAHARL-DENIED.title": "却下だ！",
   
-  "LAHARL-DISCIPLINE_COMMITTEE.description": "{Damage:diff()}ダメージを{Repeat:diff()}回与える。\n[gold]賛成！[/gold]または[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。",
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "{Damage:diff()}ダメージを{HitCount:diff()}回与える。\n[gold]賛成！[/gold]または[gold]反対！[/gold]を[blue]1[/blue]枚[gold]手札[/gold]に加える。",
   "LAHARL-DISCIPLINE_COMMITTEE.title": "風紀委員会",
   
   "LAHARL-NICK.description": "{Damage:diff()}ダメージを与える。\n[gold]エゴ[/gold]{EgoPower:diff()}を得る。",

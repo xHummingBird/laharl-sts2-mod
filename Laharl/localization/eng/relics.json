@@ -19,8 +19,8 @@
   "LAHARL-HELLFIRE_KNUCKLE_RELIC.flavor": "[red]Details for this relic will be revealed in the future...[/red]",
   "LAHARL-HELLFIRE_KNUCKLE_RELIC.title": "Overlord's Knuckle",
 
-  "LAHARL-SUPER_ROBO_SUIT.description": "Gain 3 [gold]Block[/gold] when you apply [gold]Ego[/gold].",
-  "LAHARL-SUPER_ROBO_SUIT.flavor": "Gain 3 [gold]Block[/gold] when you apply [gold]Ego[/gold].",
+  "LAHARL-SUPER_ROBO_SUIT.description": "Gain 3 [gold]Block[/gold] whenever you apply [gold]Ego[/gold].",
+  "LAHARL-SUPER_ROBO_SUIT.flavor": "Gain 3 [gold]Block[/gold] whenever you apply [gold]Ego[/gold].",
   "LAHARL-SUPER_ROBO_SUIT.title": "Super Robo Suit",
 
   "LAHARL-PRINNY_SUIT.description": "Apply 2 [gold]Burn[/gold] to attacker when you take blocked damage.",

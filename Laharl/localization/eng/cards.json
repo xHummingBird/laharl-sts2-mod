@@ -20,7 +20,7 @@
   "LAHARL-CONTEMPT_GAZE.description": "Apply {WeakPower:diff()} [gold]Weak[/gold] and [gold]Burn[/gold].",
   "LAHARL-CONTEMPT_GAZE.title": "Contempt Gaze",
 
-  "LAHARL-HURRICANE_SLASH.description": "Deal {CalculatedDamage:diff()} damage {Repeat:diff()} times. \nDeal additional {ExtraDamage:diff()} damage per hit to enemies with [gold]Burn[/gold].",
+  "LAHARL-HURRICANE_SLASH.description": "Deal {CalculatedDamage:diff()} damage {HitCount:diff()} times. \nDeal additional {ExtraDamage:diff()} damage per hit to enemies with [gold]Burn[/gold].",
   "LAHARL-HURRICANE_SLASH.title": "Hurricane Slash",
 
   "LAHARL-OVERLORDS_TAUNT.description": "Gain {Block:diff()} [gold]Block[/gold].\nApply {VulnerablePower:diff()} [gold]Vulnerable[/gold].\nApply {WeakPower:diff()} [gold]Weak[/gold].",
@@ -32,7 +32,7 @@
   "LAHARL-HELLFIRE_KNUCKLE.description": "Deal {Damage:diff()} damage and apply {WeakPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies.",
   "LAHARL-HELLFIRE_KNUCKLE.title": "Hellfire Knuckle",
 
-  "LAHARL-VACUUM_SLICE_X.description": "Deal {CalculatedDamage:diff()} damage {Repeat:diff()} times. Deal {ExtraDamage:diff()} additional damage per hit if you have [gold]Ego[/gold].",
+  "LAHARL-VACUUM_SLICE_X.description": "Deal {CalculatedDamage:diff()} damage {HitCount:diff()} times. Deal {ExtraDamage:diff()} additional damage per hit if you have [gold]Ego[/gold].",
   "LAHARL-VACUUM_SLICE_X.title": "Vacuum Slice X",
 
   "LAHARL-ARROGANCE.description": "Gain {VigorPower:diff()} [gold]Vigor[/gold]. \nGain {EgoPower:diff()} [gold]Ego[/gold].",
@@ -71,7 +71,7 @@
   "LAHARL-DENIED.description": "Apply {BurnPower:diff()} [gold]Burn[/gold] and [gold]Weak[/gold] to ALL enemies. \nAdd [blue]1[/blue] [gold]NAY![/gold] into your [gold]Hand[/gold].",
   "LAHARL-DENIED.title": "Denied!",
 
-  "LAHARL-DISCIPLINE_COMMITTEE.description": "Deal {Damage:diff()} damage {Repeat:diff()} times. \nAdd [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold].",
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "Deal {Damage:diff()} damage {HitCount:diff()} times. \nAdd [blue]1[/blue] [gold]AYE![/gold] or [gold]NAY![/gold] into your [gold]Hand[/gold].",
   "LAHARL-DISCIPLINE_COMMITTEE.title": "Discipline Committee",
 
   "LAHARL-NICK.description": "Deal {Damage:diff()} damage. \nGain {EgoPower:diff()} [gold]Ego[/gold].",

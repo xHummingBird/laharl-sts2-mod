@@ -20,7 +20,7 @@
   "LAHARL-CONTEMPT_GAZE.description": "Appliquez {WeakPower:diff()} [gold]Affaibli[/gold] et [gold]Brûlure[/gold].",
   "LAHARL-CONTEMPT_GAZE.title": "Regard Méprisant",
 
-  "LAHARL-HURRICANE_SLASH.description": "Infligez {CalculatedDamage:diff()} dégats {Repeat:diff()} fois. \nInfligez {ExtraDamage:diff()} dégats de plus par coup aux ennemis avec [gold]Brûlure[/gold].",
+  "LAHARL-HURRICANE_SLASH.description": "Infligez {CalculatedDamage:diff()} dégats {HitCount:diff()} fois. \nInfligez {ExtraDamage:diff()} dégats de plus par coup aux ennemis avec [gold]Brûlure[/gold].",
   "LAHARL-HURRICANE_SLASH.title": "Taillade Ouragan",
 
   "LAHARL-OVERLORDS_TAUNT.description": "Gagnez {Block:diff()} d'[gold]Armure[/gold].\nAppliquez {VulnerablePower:diff()} [gold]Vulnerable[/gold].\nAppliquez {WeakPower:diff()} [gold]Affaibli[/gold].",
@@ -32,7 +32,7 @@
   "LAHARL-HELLFIRE_KNUCKLE.description": "Infligez {Damage:diff()} dégats.\nAppliquez {WeakPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis.",
   "LAHARL-HELLFIRE_KNUCKLE.title": "Poing Infernal",
 
-  "LAHARL-VACUUM_SLICE_X.description": "Infligez {CalculatedDamage:diff()} dégats {Repeat:diff()} fois. Infligez {ExtraDamage:diff()} dégats de plus par coup si vous avez de l'[gold]Ego[/gold].",
+  "LAHARL-VACUUM_SLICE_X.description": "Infligez {CalculatedDamage:diff()} dégats {HitCount:diff()} fois. Infligez {ExtraDamage:diff()} dégats de plus par coup si vous avez de l'[gold]Ego[/gold].",
   "LAHARL-VACUUM_SLICE_X.title": "Tranche Vide X",
 
   "LAHARL-ARROGANCE.description": "Gagnez {VigorPower:diff()} [gold]Vigueur[/gold]. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",
@@ -71,7 +71,7 @@
   "LAHARL-DENIED.description": "Appliquez {BurnPower:diff()} [gold]Brûlure[/gold] et [gold]Affaibli[/gold] à TOUS les ennemis. \nAjoutez [blue]1[/blue] [gold]NAY![/gold] à votre [gold]Main[/gold].",
   "LAHARL-DENIED.title": "Refusé !",
 
-  "LAHARL-DISCIPLINE_COMMITTEE.description": "Infligez {Damage:diff()} dégats {Repeat:diff()} fois. \nAjoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold].",
+  "LAHARL-DISCIPLINE_COMMITTEE.description": "Infligez {Damage:diff()} dégats {HitCount:diff()} fois. \nAjoutez [blue]1[/blue] [gold]AYE![/gold] ou [gold]NAY![/gold] à votre [gold]Main[/gold].",
   "LAHARL-DISCIPLINE_COMMITTEE.title": "Commité de Discipline",
 
   "LAHARL-NICK.description": "Infligez {Damage:diff()} dégats. \nGagnez {EgoPower:diff()} [gold]Ego[/gold].",

@@ -24,7 +24,7 @@ public class GetThemIdiots() : LaharlCard(1,
     protected override IEnumerable<DynamicVar> CanonicalVars => 
     [
         new DamageVar(3m, ValueProp.Move),
-        new RepeatVar(3),
+        new HitCountVar(3),
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -38,7 +38,7 @@ public class GetThemIdiots() : LaharlCard(1,
             SfxCmd.Play("res://Laharl/sfx/bakame.mp3");
         }
 
-        int hitCount = DynamicVars.Repeat.IntValue;
+        int hitCount = DynamicVars.HitCount.IntValue;
         if (base.Owner.HasPower<EgoPower>())
             hitCount += 2;
         await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue).WithHitCount(hitCount).FromCard(this, cardPlay)

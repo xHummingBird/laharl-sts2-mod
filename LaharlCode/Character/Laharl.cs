@@ -109,7 +109,7 @@ public class Laharl : PlaceholderCharacterModel
     }
 
     // If you're using sprite-based visuals, you typically do NOT want a MegaSpine animator.
-    public override CreatureAnimator? GenerateAnimator(MegaSprite controller) => null;
+    // public override CreatureAnimator? GenerateAnimator(MegaSprite controller) => null;
     
     public (float total, float[] impacts) PlayAnimation(Creature creature, string trigger)
     {
